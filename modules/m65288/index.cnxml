@@ -1,0 +1,533 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Practice questions (2019)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65288</md:content-id>
+  <md:title>Practice questions (2019)</md:title>
+  <md:abstract>Eight practice questions for the end of unit on one-sample hypothesis tests and confidence intervals.</md:abstract>
+  <md:uuid>2ec30807-6428-413e-b61b-9ccbd2e44d0f</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Practice questions for Chap. 7 &amp; 8</title>
+      <para id="eip-998">These questions were derived from Lyryx Learning, Business Statistics I -- MGMT 2262 -- Mt Royal University -- Version 2016 Revision A. OpenStax CNX. Sep 8, 2016 http://cnx.org/contents/f3aefa9e-58d2-41ea-969f-04dc2cb04c82@5.5.</para><note id="eip-722" type="important">If a question has a set of data, please see the course site for the Excel file.</note><note id="eip-349">Solutions are at the end of the chapter.</note><list id="idm46635150607968" display="block" list-type="enumerated"><item id="uid1">Question 1: The Specific Absorption Rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user's body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. To receive certification from the Federal Communications Commission (FCC) for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. Table 7.1 shows the highest SAR level for a random selection of cell phone models as measured by the FCC.
+A recent study has shown that if a cell phone's SAR level exceeds 0.9 watts per kilogram, there is an increased chance of brain tumours for those that use this phone<footnote id="uid2">This is completely made-up.</footnote> An advocacy group wants to use this new study to petition the FCC to change their regulations around the current allowable SAR levels.
+<table id="idm46635150557520" summary=""><tgroup cols="6"><tbody><row><entry>Phone model</entry><entry>SAR</entry><entry>Phone model</entry><entry>SAR</entry><entry>Phone model</entry><entry>SAR</entry></row><row><entry>Apple iPhone 4S</entry><entry>1.11</entry><entry>LG Ally</entry><entry>1.36</entry><entry>Pantech Laser</entry><entry>0.74</entry></row><row><entry>BlackBerry Pearl</entry><entry>1.48</entry><entry>LG AX275</entry><entry>1.34</entry><entry>Samsung Character</entry><entry>0.5</entry></row><row><entry>BlackBerry Tour</entry><entry>1.43</entry><entry>LG Cosmos</entry><entry>1.18</entry><entry>Samsung Epic 4G Touch</entry><entry>0.4</entry></row><row><entry>Cricket TXTM8</entry><entry>1.3</entry><entry>LG CU515</entry><entry>1.3</entry><entry>Samsung M240</entry><entry>0.867</entry></row><row><entry>HP/Palm Centro</entry><entry>1.09</entry><entry>LG Trax CU575</entry><entry>1.26</entry><entry>Samsung Messenger III</entry><entry>0.68</entry></row><row><entry>HTC One V</entry><entry>0.455</entry><entry>Motorola Q9h</entry><entry>1.29</entry><entry>Samsung Nexus S</entry><entry>0.51</entry></row><row><entry>HTC Touch Pro 2</entry><entry>1.41</entry><entry>Motorola Razr2 V8</entry><entry>0.36</entry><entry>Samsung SGH-A227</entry><entry>1.13</entry></row><row><entry>Huawei M835 Ideos</entry><entry>0.82</entry><entry>Motorola Razr2 V9</entry><entry>0.52</entry><entry>SGH-a107 GoPhone</entry><entry>0.3</entry></row><row><entry>Kyocera DuraPlus</entry><entry>0.78</entry><entry>Motorola V195s</entry><entry>1.6</entry><entry>Sony W350a</entry><entry>1.48</entry></row></tbody></tgroup></table><list id="idm46635150510816" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid3">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid4">Is it appropriate to assume that the sampling distribution is normal? Explain your reasoning and provide evidence for your choice.
+Regardless of your answer in b), assume that the sampling distribution is normal for the remaining questions.
+</item><item id="uid5">The advocacy group will go forward with their petition if they can show that, on average, cell phones have SAR rates that exceed 0.9 watts per kg. This advocacy group is run by an administrator who is very risk averse (meaning they will only go forward with the petition if there is a lot of evidence).
+Determine whether the advocacy group should go forward with their petition by performing an appropriate eight-step hypothesis test.
+</item><item id="uid6">Find a confidence interval for the true (population) mean of the Specific Absorption Rates (SARs) for cell phones. Choose a confidence level that complements the level of significance you have chosen above.
+</item><item id="uid7">Interpret the confidence interval in the context of the question.
+</item><item id="uid8">Does the confidence interval suggest that the mean SAR exceeds 0.9? Compare your answer with what you got for the hypothesis test. Do the confidence interval and hypothesis test support each other? Explain your answer.
+</item></list></item>
+        <item id="uid9"> Question 2: A hospital is trying to cut down on emergency room wait times. In the past, they have found that the average wait time is 1.4 hours for patients to be called back to be examined. They have implemented a new triage protocol and are interested in seeing if it has changed the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean wait time was 1.5 hours with a sample standard deviation of 0.5 hours.
+<list id="idm46635150495920" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid10">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid11">Use an appropriate eight-step hypothesis to determine if the average wait time for patients to be called back to be examined has changed from 1.4 hours. Use a level of significance of 10%.
+</item><item id="uid12">Is there a level of significance that causes you to change your decision?
+</item><item id="uid13">Suppose the true population mean wait time is 1.4 hours, have you made an error in b)? If so, what type?
+</item><item id="uid14">Construct a 90% confidence interval for the population mean emergency room wait times.
+</item><item id="uid15">Interpret the confidence interval in the context of the question .
+</item><item id="uid16">If the investigation committee wants to increase its level of confidence and keep the margin of error the same by taking another survey, what changes should it make?
+</item><item id="uid17">If the investigation committee did another survey, kept the margin of error the same, and surveyed 200 people instead of 70, how would the level of confidence have to change? Why?
+</item><item id="uid18">Suppose investigation committee wanted their estimate of the population mean emergency room wait times to be within 0.05 hours of the true mean. How many patients would they need to interview?
+</item></list></item>
+        <item id="uid19">Question 3: Twenty-five Americans were surveyed to determine the number of hours they spend watching television each month. The results were as follows:
+<table id="idm46635150477968" summary=""><tgroup cols="5"><tbody><row><entry>207</entry><entry>188</entry><entry>168</entry><entry>122</entry><entry>107</entry></row><row><entry>122</entry><entry>173</entry><entry>190</entry><entry>140</entry><entry>129</entry></row><row><entry>205</entry><entry>169</entry><entry>163</entry><entry>118</entry><entry>142</entry></row><row><entry>150</entry><entry>130</entry><entry>123</entry><entry>129</entry><entry>97</entry></row><row><entry>156</entry><entry>118</entry><entry>150</entry><entry>129</entry><entry>216</entry></row></tbody></tgroup></table>
+Assume that the underlying population distribution is normal and the population standard deviation is known to be 32 hours.
+<list id="idm46635150459520" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid20">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid21">The U.S. government has recently released a recommendation that Americans watch less than 150 hours of television per month. Based on this sample, is there enough evidence to suggest that, on average, Americans are meeting this recommendation? Base your answer on an appropriate eight-step hypothesis test. Use <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math>.
+</item><item id="uid22">Construct a 99% confidence interval for the population mean hours spent watching television per month.
+</item><item id="uid23">Interpret the confidence interval in the context of the question.
+</item><item id="uid24">Explain what the confidence level means in the context of the question.
+</item></list></item>
+        <item id="uid25">Question 4: The standard deviation of the weights of newborn elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds.
+<list id="idm46635150445440" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid26">What model will you use to construct a confidence interval for the population mean? Explain your reasoning by referring to the criteria for that model.
+</item><item id="uid27">Construct a 95% confidence interval for the population mean weight of newborn elephants.
+</item><item id="uid28">What will happen to the confidence interval obtained, if 500 newborn elephants are weighed instead of 50? Why?
+</item><item id="uid29">Based on the confidence interval, is it fair to say that the average weight of a newborn elephants exceeds 235 pounds? Explain your answer.
+</item><item id="uid30">Does an appropriate hypothesis test support your decision in d)? Explain your answer by doing the eight-step hypothesis test.
+</item></list></item>
+        <item id="uid31">Question 5: A news magazine is investigating the changing dynamics in marriages. Historically, men made many of the financial decisions including the decision on whether to make major household purchases (such as buying a new vehicle or doing a renovation), while women were left out of them. To investigate whether this has changed, the magazine is considering doing a study to find out the percentage of couples who are equally involved in making decision about household purchases.
+<list id="idm46635150434000" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid32">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid33">When designing a study to determine this population proportion, what is the minimum number you would need to survey to be 90% confident that the population proportion is estimated to within 0.05?
+</item><item id="uid34">If it were later determined that it was important to be more than 90% confident, how would it affect the minimum number you need to survey? Why? Do not do any calculations.
+Suppose the marketing company did do the survey. They randomly surveyed 200 households and found that in 114 of them, the couple makes major household purchasing decisions together. A similar study from the 1980s found that 46.5% of couple made major household purchasing decisions together
+</item><item id="uid35">Conduct an eight-step hypothesis test to determine whether there has been a significant increase in the number of couples who make major household purchasing decisions together since the 1980s. The editor of the magazine will only publish the article if there is ample evidence to support the claim.
+</item><item id="uid36">Construct a 95% confidence interval for the population proportion of couples who make major household purchasing decisions together.
+</item><item id="uid37">Interpret the confidence interval in the context of the question.
+</item><item id="uid38">If the rate has increased, use the confidence interval to determine by how much the rate has increased since the 1980s.
+</item><item id="uid39">List two difficulties the company might have in obtaining random results, if this survey were done by email.
+</item></list></item>
+        <item id="uid40">Question 6: Suppose that an accounting firm has developed a new software to help their clients do their taxes more quickly. Based off of a national survey, most people spend 24.4 hours completing their personal income taxes a year. The accounting firm has a random sample of 100 of their clients complete their 2016 income tax return using the new software. The sample mean time to complete the tax returns is 23.6 hours with a standard deviation of 7.0 hours. The firm doesn't want to release the software unless they are sure it will reduce the time it takes clients to do their taxes. The population distribution is assumed to be normal.
+<list id="idm46635150599968" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid41">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid42">Conduct an appropriate eight-step hypothesis test to determine if, on average, the software has reduced the time it takes clients to do their taxes.
+</item><item id="uid43">Suppose the truth is that the software does help clients do their taxes faster. Has an error been committed? If so, what type of error is it? Explain your answers.
+</item><item id="uid44">Construct a 90% confidence interval for the population mean time to complete the tax forms.
+</item><item id="uid45">Interpret the confidence interval in the context of the question.
+</item><item id="uid46">Does the confidence interval support the results of the hypothesis test? Explain your answer.
+</item><item id="uid47">If the firm wished to increase its level of confidence and keep the margin of error the same by taking another survey, what changes should it make? Why?
+</item><item id="uid48">If the firm did another survey, kept the margin of error the same, and only surveyed 49 people, how would the level of confidence have to change? Why?
+</item><item id="uid49">Suppose that the firm decided that it needed to be at least 96% confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?
+</item></list></item>
+        <item id="uid50">Question 7: In 2013, it was determined that 21% of North Americans download music illegally. Public Policy Polling is wondering whether that number has changed. They asked a random sample of adults across North America about their downloading habits. When asked, 512 of the 2247 participants admitted that they have illegally downloaded music.
+<list id="idm46635150369216" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid51">Has the proportion of North Americans who illegally download music increased since 2013? Conduct an appropriate eight-step hypothesis test to support your answer.
+</item><item id="uid52">Create and interpret a 99% confidence interval for the true proportion of North American adults who have illegally downloaded music.
+</item><item id="uid53">This survey was conducted through automated telephone interviews on May 6 and 7 of this year. The margin of error of the survey compensates for sampling error, or natural variability among samples. List some factors that could affect the surveyÕs outcome that are not covered by the margin of error.
+</item><item id="uid54">Without performing any calculations, describe how the confidence interval would change if the confidence level changed from 99% to 90%.
+</item><item id="uid55">Suppose Public Policy Polling want to conduct the study again now. They want to keep the same level of confidence as their last survey, but they want their results to within 2% of the true proportion of Canadian adults who have illegally downloaded music. What is the minimum sample size they need to obtain this?
+</item></list></item>
+        <item id="uid56">Question 8: A survey of the mean number of cents off that coupons give was conducted by randomly surveying one coupon per page from the coupon sections of a recent San Jose Mercury News. The following data were collected (in cents): 20; 75 ; 50 ; 65 ; 30 ; 55 ; 40 ; 40 ; 30 ; 55 ; 150; 40 ; 65 ; 40 . Assume the underlying distribution is approximately normal.
+<list id="idm46635150356976" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid57">What is the variable being studied? Categorize it. Based on this, what descriptive statistic (mean or proportion) is best for this situation?
+</item><item id="uid58">Conduct an appropriate eight-step hypothesis test to determine if the mean number of cents off a coupon is different from 50 . Use a level of significance of 3%.
+</item><item id="uid59">What is the probability of committing a type I error in the above hypothesis test?
+</item><item id="uid60">Construct a 97% confidence interval for the population mean worth of coupons.
+</item><item id="uid61">Interpret the confidence interval in the context of the question.
+</item><item id="uid62">If many random samples were taken of size 14, what percent of the confidence intervals constructed should contain the population mean worth of coupons? Explain why.
+</item></list></item>
+      </list><section id="uid63">
+        <title>Solutions to Practice questions</title>
+        <list id="idm46635150344608" display="block" list-type="enumerated">
+          <item id="uid64">
+            <list id="idm46635150343072" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid65">The variable is the specific absorption rate. It is quantitative continuous data. The best descriptive statistic for this type of data is the mean.
+</item>
+              <item id="uid66">Since the sample size is less than 30, we can only assume the sampling distribution is normal if the population distribution is close to being normal. Based on the normal curve plot and the empirical rule, it appears that the sample is not normally distributed. The normal curve plot is not a straight line and only 55.6% of the data fall within the first standard deviation of this. This conclusion is supported by a bimodal histogram. This suggests that the population distribution is not normal, which means we cannot be certain the sampling distribution is normal.
+Regardless of your answer in b), assume that the sampling distribution is normal for the remaining questions.
+</item>
+              <item id="uid67">
+<list id="eip-idm1608167936" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> on average, cell phones have SAR rates that are 0.9 watts per kg, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9</m:mn></m:mrow></m:math>;   
+<m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: on average, cell phones have SAR rates that exceed 0.9 watts per kg, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9</m:mn></m:mrow></m:math>
+</item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>27</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>989</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>410</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+<list id="idm46635150320704" display="block" list-type="bulleted"><item id="uid68">Sampling distribution of sample means is normal? Yes, as stated in the question.
+</item><item id="uid69">Population standard deviation is known? No
+
+</item></list>
+Therefore, since we need to estimate the population standard deviation using the sample standard deviation, we will use the t-based mean model. </item>
+
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+Since the administrator is risk averse, they want to ensure that they have rejected <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math> with a lot of evidence. Therefore, the level of significance that requires the most evidence to reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math> is 1%.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.</item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: 1.128; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>1357</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that a sample mean SAR of at least 0.989 is observed, under the assumption that the SAR rate is 0.9, is 13.57%.</item>
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>13</m:mn><m:mo>.</m:mo><m:mn>57</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is greater than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.</item>
+
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is not sufficient evidence to suggest that, on average, cell phones have SAR rates that exceed 0.9 watts per kg, which means the advocacy group should not go forward with their petition. </item> </list></item>
+              <item id="uid71">Since <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, I will use a confidence level of 98% (for a one-tailed HT, use 1-2*alpha to determine complementary CL):
+0.793 to 1.18
+</item>
+              <item id="uid72">We are 98% confident that the true population mean for SARs is somewhere between 0.793 watts/kg and 1.18 watts/kg.
+</item>
+              <item id="uid73">Though there are possible values for the population mean that do exceed 0.9 watts/kg in the CI, there are also values that do not exceed 0.9 watt/kg. Therefore, the CI would lead to an inconclusive result, meaning it is not clear from the CI whether the pop. mean exceeds 0.9 or not. This aligns with our hypothesis test that there is not enough evidence to suggest that the population mean exceed 0.9 watts/kg. 
+
+</item>
+            </list></item>
+          <item id="uid74">
+            <list id="idm46635150281024" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid75">The variable is the emergency room wait times. It is quantitative continuous data. The best descriptive statistic for this type of data is the mean.
+</item>
+              <item id="uid76"> <list id="eip-idm417760288" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> the average wait time for patients to be called back to be examined is 1.4 hours, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: the average wait time for patients to be called back to be examined has changed from 1.4 hours, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:math></item>
+
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>.
+<list id="idm46635150261936" display="block" list-type="bulleted"><item id="uid77">Sampling distribution of sample means is normal? Yes as the sample size (70) is greater than 30, the central limit theorem applies and the sampling distribution of sample means is normally distributed.
+</item><item id="uid78">Population standard deviation is known? No
+
+</item></list>
+Therefore, we will use the t-based mean model. </item>
+
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+As stated in the question, use 10%
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>10</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.</item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: 1.673; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0988</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability (times 2) that a sample mean wait time of at least 1.5 hours is observed, under the assumption that the mean wait time is 1.4, is 9.88%. </item>
+
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>9</m:mn><m:mo>.</m:mo><m:mn>88</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is less than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>10</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.</item>
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is sufficient evidence to suggest that the average wait time for patients to be called back to be examined has changed from 1.4 hours.</item></list></item>
+              <item id="uid80">Yes, if <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0988</m:mn></m:mrow></m:math>, we would change our decision to do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+</item>
+              <item id="uid81">Yes. We have concluded that the mean has changed from 1.4, but the truth is that the mean has stayed the same. Therefore, we have made an error. As we have incorrectly rejected <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math> it is a type I error.
+</item>
+              <item id="uid82">1.402 to 1.598
+</item>
+              <item id="uid83">We are 90% confident that the population average wait time in the emergency room is somewhere between 1.4 hours and 1.6 hours.
+</item>
+              <item id="uid84">If the level of confidence is increased then the critical value in the margin of error would increase. To keep the margin of error the same, either the standard deviation would need to decrease, or the sample size would need to decrease. As the standard deviation is inherent to the data, the sample size needs to decrease.
+</item>
+              <item id="uid85">If the sample size increases, then the margin of error decreases. This means that to keep the margin of error constant, the level of confidence would need to increase. This would cause the critical value to be bigger which would compensate for the larger sample size.
+</item>
+              <item id="uid86">They would need to interview at least 271 patients.
+</item>
+            </list></item>
+          <item id="uid87">
+            <list id="idm46635150215520" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid88">The variable is the number of hours Americans spend watching TV. It is quantitative discrete data. The best descriptive statistic for this type of data is the mean.
+</item>
+              <item id="uid89"><list id="eip-idm656153600" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> on average, Americans are not meeting this recommendation, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>150</m:mn></m:mrow></m:math>;
+ <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: on average, Americans are meeting this recommendation, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>&lt;</m:mo><m:mn>150</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>149</m:mn><m:mo>.</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>32</m:mn></m:mrow></m:math></item>
+
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+<list id="idm46635150197952" display="block" list-type="bulleted"><item id="uid90">Sampling distribution of sample means is normal? Yes.The preamble states the the population is normally distributed. As the population distribution is assumed to be normal, we know the sampling distribution of sample means is also normal, even though the sample is less than 30.
+</item><item id="uid91">Population standard deviation is known? Yes
+</item></list>
+As the population standard deviation is known, we will use the z-based mean model. </item>
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+The level of significance is provided in the question. 
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: -0.056; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4776</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that a sample mean number of hours of TV watched of at most 149.64 hours is observed, under the assumption that the mean number of hours watching TV is 150, is 47.76%. </item>
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>47</m:mn><m:mo>.</m:mo><m:mn>76</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is greater than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is not sufficient evidence to suggest that, on average, Americans are meeting the recommendation of watching less than 150 hours of television per month. </item></list></item>
+              <item id="uid92">133.2 to 166.1
+</item>
+              <item id="uid93">We are 99% confident that the population mean time that Americans spend watching TV is somewhere between 133.2 hours and 166.1 hours.
+</item>
+              <item id="uid94">The confidence level means that if we took many random samples of size 25 from the population of Americans and constructed many confidence intervals for each of these random samples, then 99% of these confidence intervals will contain the population mean time Americans spend watching TV, while 1% will not.
+</item>
+            </list></item>
+          <item id="uid95">
+            <list id="idm46635150165696" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid96">We know the sampling distribution for sample means is normal because the sample size is greater than 30 as stated in the Central Limit Theorem. Therefore, we use either the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> or the standard normal distributions. As the population standard deviation is known, we can use the standard normal distribution (i.e z-based normal distribution).
+</item>
+              <item id="uid97">239.84 to 248.16
+</item>
+              <item id="uid98">The confidence interval will get narrower because the margin of error will be smaller. The margin of error is smaller because the amount of error between the sample means and the population mean is smaller as stated in the law of large numbers.
+</item>
+              <item id="uid99">Yes, the estimated population mean weight of newborn elephants is 239.84 pounds to 248.16 pounds. Based on this, it is fair to say that the average weight exceeds 235 pounds, as both bounds are larger than 235.
+</item>
+              <item id="uid100"><list id="eip-idm844109888" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> on average, newborn elephants weigh 235 pounds, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>235</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: on average, newborn elephants weigh exceeds 235 pounds, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>&gt;</m:mo><m:mn>235</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>244</m:mn><m:mo>,</m:mo><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+<list id="idm46635150141840" display="block" list-type="bulleted"><item id="uid101">Sampling distribution of sample means is normal? Yes as the sample size (50) is greater than 30, the central limit theorem applies and the sampling distribution of sample means is normally distributed.
+</item><item id="uid102">Population standard deviation is known? Yes
+</item></list>
+As the population standard deviation is known, we will use the z-based mean model. </item>
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+As the confidence level in the previous question was 95% and we are attempting to verify the CI with a HT, we should use an <m:math overflow="scroll"><m:mi>α</m:mi></m:math> of 2.5% (solve for alpha in 0.95 = 1-2*alpha, for a one-tailed HT).
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>2.5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>2.5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: 4.24; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>10</m:mn><m:mi>E</m:mi><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>10</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>000011</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that a sample mean weight of newborn elephants is at least 244 pounds is observed, under the assumption that the mean weight of newborn elephants is 235, is 0.0011%. </item>
+
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0011</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is less than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is sufficient evidence to suggest that, on average, newborn elephants weigh exceeds 235 pounds. </item></list></item>
+            </list></item>
+          <item id="uid103">
+            <list id="idm46635150109696" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid104">The variable is what whether a couple makes major household purchasing decisions together or not. It is categorical nominal data. The best descriptive statistic for this type of data is a proportion.
+</item>
+              <item id="uid105">They would need to interview a minimum of 271 households (Note: As no estimate of the population proportion is provided, use 50%)
+</item>
+              <item id="uid106">If it were later determined that it was important to be more than 90% confident and a new survey were commissioned, how would it affect the minimum number you need to survey? Why?
+</item>
+              <item id="uid107"><list id="eip-idm267947056" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>.  We define  <m:math>
+ <m:apply><m:lt/><m:pi/></m:apply></m:math> in this problem to be the population proportion of couples who make a major household purchase together.
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> the proportion of couples who make major household purchasing decisions together is unchanged at 46.5%, <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>465</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: the proportion of couples who make major household purchasing decisions together is greater than 46.5%, <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>465</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>.
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>114</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+<list id="idm46635150089568" display="block" list-type="bulleted"><item id="uid108">Binomial distribution? Yes, because here are only two outcomes: Either couple makes household decisions together or they don't.
+
+</item>
+<item> Sampling distributions of proportions normal? Yes, because number of successes (114) and number of failures (200-114=86) are both at least 5. </item></list></item>
+
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+As the editor needs strong evidence, need to choose <m:math overflow="scroll"><m:mi>α</m:mi></m:math> to be small, i.e. 1%.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+
+Test stat: 2.977; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>00145</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that at least 114 out of 200 couples make major purchasing together, assuming the rate has not changed since the 1980s, is 0.15%. </item>
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>19</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is less than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is sufficient evidence to suggest that the proportion of couples who make major household purchasing decisions together is greater than 46.5%. </item></list></item>
+              <item id="uid112">0.5014 to 0.6386
+</item>
+              <item id="uid113">We are 95% confident that the true proportion of couples who make major household purchasing decisions together is somewhere between 50.14% and 63.86%.
+</item>
+              <item id="uid114">Based off of the CI, the rate has increased by at least 3.6% and by at most 17.4%.
+</item>
+              <item id="uid115">One issue is how will the marketing company develop the list of email addresses. Most likely they will not have a complete list of all emails for all households. Second of all, the email will be sent to a member of the household and not to the household as a whole. Thus one household may get multiple surveys. Further, not everyone uses email so the sample will miss those households.
+</item>
+            </list></item>
+          <item id="uid116">
+            <list id="idm46635150043648" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid117">The variable is the amount of time people take completing their tax forms. It is quantitative continuous data. The best descriptive statistic for this type of data is the mean.
+</item>
+              <item id="uid118">Conduct an appropriate eight-step hypothesis test to determine if, on average, the software has reduced the time it takes clients to do their taxes.
+<list id="eip-idm1020039296" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> on average, the software has not reduced the time it takes clients to do their taxes, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: on average, the software has reduced the time it takes clients to do their taxes, <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>&lt;</m:mo><m:mn>24</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>23</m:mn><m:mo>.</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>.
+<list id="idm46635150023904" display="block" list-type="bulleted"><item id="uid119">Sampling distribution of sample means is normal? Yes as the population distribution is assumed to be normal, we know the sampling distribution of sample means is also normal.
+</item><item id="uid120">Population standard deviation is known? No
+
+</item></list>
+Therefore, since we need to estimate the population standard deviation using the sample standard deviation but the sample size is large enough that there the difference between the z-based and t-based models is minimal, we will use the z-based mean model. </item>
+
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+Since the firm doesn't want to release the software unless they are very confident that it works, they should choose a small level of significance (i.e. 1%).
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: -1.14; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>1279</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that a sample mean time to complete tax returns of at most 23.6 hours is observed, under the assumption that the mean time is 24.4, is 12.79%. </item>
+
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>12</m:mn><m:mo>.</m:mo><m:mn>79</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is greater than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is not sufficient evidence to suggest that, on average, the software has reduced the time it takes clients to do their taxes. </item></list></item>
+              <item id="uid122">Since we have stated that it is that there is not enough evidence that the software has reduced the time it takes clients to do their taxes, when in fact it has, we have committed a type II error.
+</item>
+              <item id="uid123">22.45 to 24.75
+</item>
+              <item id="uid124">We are 90% confident that the true average time it takes for people to complete their tax forms with this new software is somewhere between 22.45 hours and 24.75 hours.
+</item>
+              <item id="uid125">The HT has led us to state that there is evidence that the average time has not been reduced from 24.4. The CI supports this as it contains the population mean of 24.4 hours.
+</item>
+              <item id="uid126">If the level of confidence is increased then the critical value in the margin of error would increase. To keep the margin of error the same, either the standard deviation would need to decrease, or the sample size would need to increase. As the standard deviation is inherent to the data, the sample size needs to increase.
+</item>
+              <item id="uid127">If the sample size decreases, then the margin of error increases. This means that to keep the margin of error constant, the level of confidence would need to decrease. This would cause the critical value to be smaller which would compensate for the smaller sample size.
+</item>
+              <item id="uid128">It would not change the number of people needed to be interviewed. The level of confidence and the sample size are independent of each other.
+</item>
+            </list></item>
+          <item id="uid129">
+            <list id="idm46635149982464" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid130"><list id="eip-idm462639360" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> the proportion of North Americans who illegally download music not increased since 2013, <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>21</m:mn></m:mrow></m:math><m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: the proportion of North Americans who illegally download music increased since 2013, <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>21</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>.
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2247</m:mn><m:mo>,</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>512</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+Since this is a one population proportions test, we want to use the standard normal distribution to model it. We need to check two things:
+<list id="idm46635149967440" display="block" list-type="bulleted"><item id="uid131">Binomial distribution? Yes, because there are only two outcomes: Either person illegally downloads music or they don't. 
+</item> 
+<item>Is the sampling distribution of sample proportions normal? Yes, as the number of successes (512) and the number of failures (2247-512 =1735) are both at least 5. </item></list>
+Therefore, we will use the standard normal distribution to model this situation. </item>
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis>
+As there is no motivation stated in the study, I will choose a level of significance that is a balance between rejecting and not rejecting H0, i.e. 5%.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat: 2.08; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0188</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability that at least 512 out of 2247 North Americans admit that they have downloaded music illegally, assuming the rate has not changed since 2013, is 1.88%. </item>
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>88</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is less than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is sufficient evidence to suggest that the proportion of North Americans who illegally download music increased since 2013.</item></list></item>
+              <item id="uid135">We are 99% confident that the true proportion of Canadians that download music illegally is somewhere between 20.51% and 25.07%.
+</item>
+              <item id="uid136">Some people may not want to admit to having downloaded music illegally. It is unclear how PPP got the list of phone numbers. This list could miss cell phone users and thus would not be representative.
+</item>
+              <item id="uid137">The confidence interval would get narrower.
+</item>
+              <item id="uid138">2919
+</item>
+            </list></item>
+          <item id="uid139">
+            <list id="idm46635149921024" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid140">The variable is the number of cents off that coupons give. It is quantitative discrete data. The best descriptive statistic for this type of data is the mean.
+</item>
+              <item id="uid141"><list id="eip-idm730382352" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">State <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:ci>
+</m:math>
+ and <m:math>
+<m:ci><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:ci>
+</m:math>
+</emphasis>. 
+
+<m:math overflow="scroll"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> the mean number of cents off a coupon is the same as 50 , <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>50</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mi>A</m:mi></m:msub></m:math>: the mean number of cents off a coupon is different from 50 , <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>≠</m:mo><m:mn>50</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Summarize the sample data</emphasis>. 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mn>53</m:mn><m:mo>.</m:mo><m:mn>93</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>31</m:mn><m:mo>.</m:mo><m:mn>63</m:mn></m:mrow></m:math> </item>
+
+<item><emphasis effect="bold">State and justify the model (or distribution) being used</emphasis>. 
+<list id="idm46635149902240" display="block" list-type="bulleted"><item id="uid142">Sampling distribution of sample means is normal? Yes as the population distribution is assumed to be normal, we know the sampling distribution of sample means is also normal.
+</item><item id="uid143">Population standard deviation is known? No
+
+</item></list>
+Therefore, since we need to estimate the population standard deviation using the sample standard deviation, we will use the t-based mean model. </item>
+
+
+<item><emphasis effect="bold">Choose an appropriate level of significance.</emphasis> 
+Level of significance in the question is stated to be 3%.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn><m:mo>%</m:mo></m:mrow></m:math>, reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>.
+If <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>3</m:mn><m:mo>%</m:mo></m:mrow></m:math>, do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Calculate the test statistic and related <emphasis effect="italics">p</emphasis>-value</emphasis>. 
+Test stat = 0.465; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>6499</m:mn></m:mrow></m:math> </item>
+
+
+<item><emphasis effect="bold">Discuss what the <emphasis effect="italics">p</emphasis>-value measures in context</emphasis>. 
+The probability (times 2) that a sample mean number of cents off a coupon of at most 53.929 is observed, under the assumption that the mean number of cents is 50, is 64.99%. </item>
+
+<item><emphasis effect="bold">Make a decision.</emphasis> 
+Since <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>64</m:mn><m:mo>.</m:mo><m:mn>99</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math> is greater than <m:math overflow="scroll"><m:mrow><m:mi>α</m:mi><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>, we do not reject <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. </item>
+
+
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> 
+There is not sufficient evidence to suggest that the mean number of cents off a coupon is different from 50 . </item></list></item>
+              <item id="uid145">It is the level of significance, 3%.
+</item>
+              <item id="uid146">33.335 to 74.522
+</item>
+              <item id="uid147">We are 97% confident that the mean number of cents off that coupons give is somewhere between 33.3 and 74.5 .
+</item>
+              <item id="uid148">97% of them would contain the population mean, while 3% would not. This is determined by the confidence level.
+</item>
+            </list></item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

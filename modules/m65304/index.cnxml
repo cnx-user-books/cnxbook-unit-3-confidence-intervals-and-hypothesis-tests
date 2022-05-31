@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>The Null and Alternative Hypothesis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65304</md:content-id>
+  <md:title>The Null and Alternative Hypothesis</md:title>
+  <md:abstract/>
+  <md:uuid>8c1f79a1-508b-4a39-ba40-04e4285a2a03</md:uuid>
+</metadata>
+
+<content>
+<para id="delete_me">The actual test begins by considering two <term>hypotheses</term>. They are called the <term>null hypothesis</term> and the <term>alternative hypothesis</term>. These hypotheses contain opposing viewpoints.</para><para id="element-619"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis>The null hypothesis:</emphasis> The null hypothesis is the opposite of what the researcher is trying to show. It is the assumption made about a population parameter, such as the mean or proportion. It is a statement that we will assume to be true until we can find strong evidence to the contrary. You can think of the null hypothesis as the assumption that nothing has changed, nothing is different. If you find evidence that suggests the assumption is not valid, then you will reject the assumption about the population parameter in favour of a claim. If you do not find enough evidence that suggests the assumption is not valid, then you do not have enough evidence to support the claim, but that does not mean the assumption is valid.
+</para><para id="element-320"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis>The alternative hypothesis:</emphasis> This is the claim about the population that the researcher is trying to show and it is contradictory to H0 . It is what we conclude to be likely to be true if our sample evidence suggests that H0 is no longer valid. The alternative hypothesis says that something is different, that things have changed. It must be supported by significant evidence to overthrow the assumption.
+</para><para id="element-478">Since the null and alternative hypotheses are contradictory, you must examine evidence to decide if you have enough evidence to reject the null hypothesis or not. Since we rarely have access to population data, we must take our evidence from sample data.</para><para id="element-862">Later we will discuss in more detail how to determine if the sample evidence can be considered strong enough to support the alternative hypothesis. Once you have examined the sample evidence, you can determine if it supports the alternative hypothesis or not and make your final <emphasis>decision.</emphasis>
+There are two options for this decision. They are "reject <emphasis effect="italics">H<sub>0</sub></emphasis>" if the sample information favours the alternative hypothesis or "fail to reject <emphasis effect="italics">H<sub>0</sub></emphasis>" or "decline to reject <emphasis effect="italics">H<sub>0</sub></emphasis>" if the sample information is insufficient to reject the null hypothesis. These conclusions are all based upon a level of significance that is set by the analyst.</para><para id="element-689">Table 9.1 presents the various hypotheses in the relevant pairs. For example, if the null hypothesis is equal to some value, the alternative has to be not equal to that value.
+
+<table id="element-341" frame="none" summary="Table presenting mathematical symbols used with the null and alternate hypothesis. The first column contains the null hypothesis and its 3 mathematical symbols and the second column has the alternate hypothesis and its mathematical symbols.">
+<tgroup cols="2"><thead valign="middle">
+<row>
+<entry align="center"><emphasis effect="italics">H<sub>0</sub></emphasis></entry>
+<entry align="center"><emphasis effect="italics">H<sub>a</sub></emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>equal (=)</entry>
+<entry>not equal (≠)</entry>
+</row>
+<row>
+<entry>greater than or equal to (≥)</entry>
+<entry>less than (&lt;)</entry>
+</row>
+<row>
+<entry>less than or equal to (≤)</entry>
+<entry>more than (&gt;)</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></para><note id="id1168218302693"><label/><title>Note</title>
+<para id="eip-idp37732128">As a mathematical convention <emphasis effect="italics">H<sub>0</sub></emphasis> always has a symbol with an equal sign in it. <emphasis effect="italics">H<sub>a</sub></emphasis> never has a symbol with an equal in it. The choice of symbol depends on the wording of the hypothesis test. </para></note>
+
+<example id="element-183"><para id="element-283"><emphasis effect="italics">H<sub>0</sub></emphasis>: 
+The average amount of sleep adult Canadians get per night is greater than or equal to 8 hours. 
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: The average amount of sleep adult Canadians get per night is less than 8 hours.<newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 8
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 8</para></example><example id="element-641">
+<para id="element-508">We want to test whether the mean GPA of students in Canadian universities is different from 2.0 (out of 4.0). The null and alternative hypotheses are:
+<newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 2.0
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 2.0</para></example>
+
+<example id="element-296">
+<para id="element-114">We want to test if university students take more than four years to graduate from university, on the average. The null and alternative hypotheses are:
+<newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 4
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 4</para></example><example id="eip-585"><para id="eip-972">We want to test if the proportion of Liberal supporters has dropped since the election.
+<newline/><emphasis effect="italics">H<sub>o</sub></emphasis>: The proportion of Liberal supporters is greater than or equal to 0.40
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: The proportion of Liberal supporters is less than 0.40. <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≥ 0.40
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &lt; 0.40
+
+
+
+</para></example><!-- ??? -->
+<section id="eip-591" class="summary">
+<title>Chapter Review</title>
+<para id="eip-593">In a <emphasis>hypothesis test</emphasis>, sample data is evaluated in order to arrive at a decision about some type of claim about a population parameter, such as the mean or proportion. If the sample provides strong evidence to the contrary of the original claim, then the claim can be rejected in favour of the new claim. In a hypothesis test, we:
+
+
+<list id="eip-idp72518864" list-type="enumerated" number-style="arabic"><item>Evaluate the <emphasis>null hypothesis</emphasis>, typically denoted with <emphasis effect="italics">H<sub>0</sub></emphasis>. The null is not rejected unless the hypothesis test shows otherwise. The null statement must always contain some form of equality (=, ≤ or ≥)</item>
+
+<item>Always write the <emphasis>alternative hypothesis</emphasis>, typically denoted with <emphasis effect="italics">H<sub>a</sub></emphasis> or <emphasis effect="italics">H<sub>1</sub></emphasis>, using not equal, less than or greater than symbols, i.e., (≠, &lt;, or &gt; ).</item>
+
+<item>If we reject the null hypothesis, then we can assume there is enough evidence to support the alternative hypothesis.</item>
+
+<item>Never state that a claim under the null hypothesis is proven true or false. Keep in mind the underlying fact that hypothesis testing is based on probability laws; therefore, we can talk only in terms of non-absolute certainties.</item>
+</list></para></section>
+
+<section id="fs-idm15064784" class="practice">
+<exercise id="eip-350">
+<problem id="eip-421">
+<para id="fs-idm78419312">
+You are testing that the mean speed of your cable Internet connection is more than three Megabits per second. What is the random variable? Describe in words.
+</para>
+</problem>
+
+<solution id="eip-136">
+<para id="fs-idm73404464">
+The random variable is the mean Internet speed in Megabits per second.
+</para>
+</solution>
+</exercise>
+<exercise id="eip-629"><problem id="eip-259">
+<para id="eip-749">
+Canadian families have an average of two children. What is the random variable? Describe in words.
+</para>
+</problem>
+
+<solution id="eip-644">
+<para id="eip-263">The random variable is the mean number of children a Canadian family has.</para></solution>
+</exercise><exercise id="eip-334"><problem id="eip-277">
+<para id="eip-1">A sociologist claims the probability that a person picked at random visting the CN Tower in Toronto is a tourist is 0.83. You want to test to see if the proportion is actually less. What is the random variable? Describe in words.
+</para></problem>
+
+<solution id="eip-265">
+<para id="eip-545">
+The random variable is the proportion of people who are tourists picked at random at the CN Tower.</para>
+</solution>
+</exercise><exercise id="eip-75">
+<problem id="eip-512">
+<para id="eip-102">In a population of fish, approximately 42% are female. A test is conducted to see if, in fact, the proportion is less. State the null and alternative hypotheses.</para>
+</problem>
+
+<solution id="eip-217">
+<para id="eip-161">
+<list id="eip-idm74385712" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> = 0.42</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &lt; 0.42</item>
+</list></para>
+</solution>
+</exercise>
+
+</section>
+
+<section id="fs-idm8472096" class="free-response">
+<title>Homework</title>
+
+<exercise id="element-919"><problem id="id8382572">
+<para id="element-802">Some of the following statements refer to the null hypothesis, some to the alternate hypothesis. Hint: pay attention to whether the statement states or implies an equality. If so, it refers to the null hypothesis.
+</para><para id="element-449">State the null hypothesis, <emphasis effect="italics">H<sub>0</sub></emphasis>, and the alternative hypothesis. <emphasis effect="italics">H<sub>a</sub></emphasis>, in terms of the appropriate parameter (<emphasis effect="italics">μ</emphasis> or <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis>).</para><list id="element-222" list-type="enumerated" number-style="lower-alpha"><item>The mean number of years Canadians work before retiring is 34.</item>
+<item>At most 60% of Canadians vote in federal elections.</item>
+<item>The mean starting salary for U of A graduates is at least $100,000 per year.</item>
+<item>Twenty-nine percent of high school seniors get drunk each month.</item>
+<item>Fewer than 5% of adults ride the bus to work in Calgary.</item>
+<item>The mean number of cars a person owns in her lifetime is not more than ten.</item>
+<item>About half of Canadians prefer to live away from cities, given the choice.</item>
+<item>Europeans have a mean paid vacation each year of six weeks.</item>
+<item>The chance of developing breast cancer is under 11% for women.</item>
+<item>Private universities' mean tuition cost is more than $20,000 per year.</item>
+</list></problem>
+
+<solution id="id9205906">
+<list id="fs-idm3759984" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 34; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 34</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≤ 0.60; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &gt; 0.60</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 100,000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 100,000</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> = 0.29; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≠ 0.29</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> = 0.05; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &lt; 0.05</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 10; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 10</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> = 0.50; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≠ 0.50</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 6; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 6</item>
+
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≥ 0.11; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &lt; 0.11</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 20,000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 20,000</item>
+</list></solution>
+</exercise>
+
+<exercise id="exer13"><problem id="id8184432"> 
+<para id="eip-idp133963488">A statistics instructor believes that fewer than 20% of Lethbridge Community College (LCC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is:</para><list id="id8618736" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> = 0.20</item>
+<item><emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &gt; 0.20</item>
+<item><emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> &lt; 0.20</item>
+<item><emphasis effect="italics"><m:math> <m:pi/></m:math></emphasis> ≤ 0.20</item>
+</list></problem>
+<solution id="id8184727"><para id="paragrams">c</para></solution>
+</exercise></section>
+
+<section id="fs-idm48036544" class="references">
+<title>References</title>
+<para id="fs-idp5641168">Data from the National Institute of Mental Health. Available online at http://www.nimh.nih.gov/publicat/depression.cfm.</para></section>
+
+</content>
+<glossary>
+<definition id="hypothesis">
+<term>Hypothesis</term>
+<meaning id="id1168218799446">a statement about the value of a population parameter, in case of two hypotheses, the statement assumed to be true is called the null hypothesis (notation <emphasis effect="italics">H</emphasis><sub>0</sub>) and the contradictory statement is called the alternative hypothesis (notation <emphasis effect="italics">H<sub>a</sub></emphasis>).
+</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Confidence interval for proportion - MRU - C Lemieux</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65028</md:content-id>
+  <md:title>Confidence interval for proportion - MRU - C Lemieux</md:title>
+  <md:abstract>Explanation of how to find and interpret a confidence interval for proportion and sample size determination.</md:abstract>
+  <md:uuid>9e78e067-dbc4-49e0-99b5-54474849e5b7</md:uuid>
+</metadata>
+
+<content>
+    <para id="idm45897051470656">Here we want to construct a confidence interval to estimate the population proportion <m:math overflow="scroll"><m:mi>π</m:mi></m:math> based off of the point estimate of the sample proportion <m:math overflow="scroll"><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover></m:math>.</para>
+    <para id="idm45897051466800">Confidence intervals for proportion are constructed by taking the point estimate <m:math overflow="scroll"><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover></m:math> and adding and subtracting the margin of error <m:math overflow="scroll"><m:mi>E</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover><m:mo>±</m:mo><m:mi>E</m:mi></m:mrow></m:math>.</para>
+    <para id="idm45897051415488">There is more than one model for constructing a confidence interval for the sample proportion. The model we will discuss here has the following criteria:</para>
+    <list id="idm45897051414880" display="block" list-type="bulleted">
+      <item id="uid1">The variable being studied satisfies the conditions of the binomial distribution.
+</item>
+      <item id="uid2">The sampling distribution for sample proportions is approximately normal. This occurs if the number of successes (<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>×</m:mo><m:mi>π</m:mi></m:mrow></m:math>) is at least 5 and the number of failures (<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>×</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>π</m:mi><m:mo>)</m:mo></m:mrow></m:math>) is at least 5. As <m:math overflow="scroll"><m:mi>π</m:mi></m:math> is unknown this can be checked by determining if the number of successes and failures in the sample are both at least 5.
+</item>
+    </list>
+    <para id="idm45897051405664">The margin of error is found in a similar way to margin of error for the mean. That is, it is the critical value <m:math overflow="scroll"><m:mo>×</m:mo></m:math> the standard error. As we are assuming that the sampling distribution is approximately normal, we will use the standard normal distribution to find the critical value. Since the variable being studied satisfies the conditions of the binomial distribution, we know from Chapter 6 that the standard error of the sampling distribution is <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:msqrt><m:mfrac><m:mrow><m:mi>π</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>π</m:mi><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:mfrac></m:msqrt></m:mstyle></m:math>. As we don't know <m:math overflow="scroll"><m:mi>π</m:mi></m:math> as that is what we are trying to estimate, we will estimate <m:math overflow="scroll"><m:mi>π</m:mi></m:math> in the formula with the sample proportion <m:math overflow="scroll"><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover></m:math>. This results in the estimate of the standard error to be <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:msqrt><m:mfrac><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:msqrt></m:mstyle></m:math></para>
+    <para id="idm45897051390656">If these conditions are met, then the formula for the margin of error is:</para>
+    <equation id="idm45897051390272">
+      <m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:mi>E</m:mi>
+          <m:mo>=</m:mo>
+          <m:msub>
+            <m:mi>z</m:mi>
+            <m:mrow>
+              <m:mi>α</m:mi>
+              <m:mo>/</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:msub>
+          <m:mo>×</m:mo>
+          <m:msqrt>
+            <m:mfrac>
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>p</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mover accent="true">
+                    <m:mi>p</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mi>n</m:mi>
+            </m:mfrac>
+          </m:msqrt>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="idm45897051382784">Example: Cell phones</para>
+    <para id="idm45897051382160">Suppose that a market research firm is hired to estimate the percent of adults living in a Vancouver who have cell phones. Five hundred randomly selected adult residents in Vancouver are surveyed to determine whether they have cell phones. Of the 500 people sampled, 421 responded yes - they own cell phones.</para>
+    <list id="idm45897051381456" display="block" list-type="enumerated">
+      <item id="uid3">Using a 92% confidence level, compute a confidence interval estimate for the true proportion of adult residents of this city who have cell phones.
+</item>
+      <item id="uid4">Would it be appropriate to say that 85% of residents have a cell phone in Vancouver?
+</item>
+      <item id="uid5">What does the confidence level tell us in the context of the question?
+</item>
+    </list>
+    <para id="idm45897051375824">Solutions:</para>
+    <list id="idm45897051375440" display="block" list-type="enumerated">
+      <item id="uid6">We can use the standard normal model for proportions to construct our confidence interval as the variable (cell phone ownership) follows a binomial distribution (1: The variable is random (random sample); 2: The outcomes are being counted (number of people who have cell phones); 3: There is a fixed number of trials (500); 4: There are two possible outcomes (have cell phone or don't have cell phone); 5: Though <m:math overflow="scroll"><m:mi>π</m:mi></m:math> is unknown it is fair to assume that the proportion of people who have a cell phone on a given day in Vancouver is very stable) and the sampling distribution for proportions is normal as the number of successes is 421 and the number of failures is 79 (i.e. they are both greater than 5).
+Use a computer program to construct the confidence interval. Input x as 421 (this may be in the same place as the sample proportion, but when you input the whole number it will switch to x), the sample size as 500, and the confidence level as 92%.
+Notice that you don't have to state whether it is <m:math overflow="scroll"><m:mi>z</m:mi></m:math> or <m:math overflow="scroll"><m:mi>t</m:mi></m:math> as there is only one model for this situation.
+This gives the following output:
+<table id="idm45897051367984" summary=""><tgroup cols="2"><tbody><row><entry>92%</entry><entry>confidence level</entry></row><row><entry>1.751</entry><entry>z</entry></row><row><entry>0.029</entry><entry>margin of error</entry></row><row><entry>0.813</entry><entry>lower confidence limit</entry></row><row><entry>0.871</entry><entry>upper confidence limit</entry></row></tbody></tgroup></table>
+From this, we can see that the confidence interval for the mean is 0.813 to 0.871.
+</item>
+      <item id="uid7">To interpret the confidence interval, we would say that we are 92% confident that proportion of residents of Vancouver that own a cell phone is somewhere between 81.3% and 87.1%.
+</item>
+      <item id="uid8">Since 85% is contained in the confidence interval, it is appropriate to say that the proportion of residents in Vancouver who have a cell phone is 85%.
+</item>
+      <item id="uid9">The confidence level means that if we took many random samples of Vancouver residents of size 500 and constructed many confidence intervals for each of these random samples, then 92% of these confidence intervals will contain the population proportion of cell phone users, while 8% will not.
+</item>
+    </list>
+    <para id="idm45897051476576">A couple of notes about the confidence interval:</para>
+    <list id="idm45897051476192" display="block" list-type="bulleted">
+      <item id="uid10">The margin of error is 0.029 or 2.9%. The margin of error for a confidence interval for proportions has to be less 1 (or 100%). If the sample size is large enough, the margin of error should be quite small (less than 10%).
+</item>
+      <item id="uid11">Since proportions can only range from 0 to 1 or 0% to 100%, the confidence interval can never exceed these values. For example, if the sample proportion is 92% and the margin of error is 10%, then the confidence interval would be 82% to 102%, but since the upper bound is impossible, we would round the answer to 82% to 100%.
+</item>
+    </list>
+    <section id="cid1">
+      <title>Determining sample size</title>
+      <para id="idm45897051328560">Just like with the mean, we want to determine an appropriate sample size to achieve a maximum amount of error in our estimate for the population proportion.</para>
+      <para id="idm45897051328000">To find the formula for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>, we again solve for <m:math overflow="scroll"><m:mi>n</m:mi></m:math> in the formula for the margin of error, this results in the following formula:</para>
+      <equation id="idm45897051325728">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mi>z</m:mi>
+                  <m:mrow>
+                    <m:mi>α</m:mi>
+                    <m:mo>/</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mspace width="0.277778em"/>
+                <m:mover accent="true">
+                  <m:mi>p</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover>
+                <m:mspace width="0.166667em"/>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mover accent="true">
+                    <m:mi>p</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:msup>
+                <m:mi>E</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="idm45897051316960">To use this formula we need to know the margin of error, the confidence level and the sample proportion.</para>
+      <para id="idm45897051316208">Note: If no estimate for <m:math overflow="scroll"><m:mi>π</m:mi></m:math> exists, then use <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+      <exercise id="eip-557"><problem id="eip-361">
+  <para id="eip-358">
+    The Western Canada Communications Company is considering a bid to provide long-distance phone service. You are asked to
+conduct a poll to estimate the percentage of consumers who are satisfied with their current long-distance phone service.
+You want to be 90% confident that your sample percentage is within 2.5 percentage points of the true population value, and a Roper poll suggests that this percentage
+should be about 85%. How large must your sample be?
+  </para>
+</problem>
+
+<solution id="eip-316">
+  <para id="eip-799">
+   The confidence level is 90%, the sample proportion is 85%, and the amount of error we want in our estimate (i.e. the margin of error) is 2.5%.</para>
+        <para id="idm45897051308512">We can now use a computer program to do the calculation. From the question, we know the margin of error (<m:math overflow="scroll"><m:mi>E</m:mi></m:math>) is 0.025 (remember to write it as a decimal), the sample proportion is 0.85, and the confidence level is 90%. When we input this into the computer program, we get output similar to this.</para>
+        <table id="idm45897051306848" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>90%</entry>
+                <entry>confidence level</entry>
+              </row>
+              <row>
+                <entry>1.645</entry>
+                <entry>z</entry>
+              </row>
+              <row>
+                <entry>551.931</entry>
+                <entry>sample size</entry>
+              </row>
+              <row>
+                <entry>552</entry>
+                <entry>rounded up</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="idm45897051300608">From this, we can see that we need to have at least 552 consumers in our sample.
+  </para>
+</solution>
+</exercise></section>
+  </content>
+</document>

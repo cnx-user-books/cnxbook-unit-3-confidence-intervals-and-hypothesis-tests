@@ -1,0 +1,355 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Eight-Step Hypothesis Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65319</md:content-id>
+  <md:title>The Eight-Step Hypothesis Test</md:title>
+  <md:abstract>This module covers the formal hypothesis test using an eight-step approach with an emphasis on p-values.</md:abstract>
+  <md:uuid>133f9f19-bfd0-4689-b256-658761f12aa4</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm327156784">
+      <title>P-values and the Level of Significance</title>
+      <para id="import-auto-idm1625489904">Once you have set out your null and alternative hypothesis, you need to determine how strong your sample evidence must be before you would be willing to reject the null hypothesis in favour of the alternative hypothesis. The required strength of evidence is defined by the level of significance (α).</para>
+      <para id="import-auto-idm355209392">Once your level of significance has been set, you can then examine your sample evidence to determine its strength, as measured by its p-value This process will be discussed below. </para>
+      <section id="import-auto-idm348319856">
+        <title>Ethical Implications of Choosing a Level of Significance</title>
+        <para id="import-auto-idm1534796144">Once you have set out your null and alternative hypothesis, you need to determine how strong your sample evidence must be before you would be confident in rejecting the null hypothesis in favour of the alternative hypothesis. The required strength of evidence is defined by the level of significance (α).</para>
+        <para id="import-auto-idm1628908624">Typically values for alpha range from 1% to 10% and will vary depending on a number of factors, including conventions set by a particular industry or discipline and the relative risks of a Type I versus a Type II error, as discussed in the previous section. In many cases, the choice of alpha may be left up to the analyst. Unfortunately, without a peer review process, some analysts may be tempted to set alpha in a way that will support his or her desired conclusion. </para>
+        <para id="import-auto-idm1044144752">For example, if a pharmaceutical company stands to make millions of dollars on a new drug, it obviously has a vested interest in offering <emphasis effect="italics">proof </emphasis>that the drug is effective. The null hypothesis is that the drug is not effective; and the aternative is that it is. But what if the proof, as discovered by several rounds of double-blind tests, turns out to be rather weak? This would normally lead the researcher to decide not to reject the null hypothesis and conclude that the sample evidence is insufficiently strong for the drug to be considered a success. If this were the conclusion, the drug should not be approved as an effective treatment. But a company with millions already invested in the drug may be strongly determined to see it to market, in spite of the test results. An unethical approach might be to simply move the <emphasis effect="italics">goal posts</emphasis> to make it easier to reject the null hypothesis (i.e. to make the proof look stronger than it is). </para>
+        <para id="import-auto-idm1174666672">These <emphasis effect="italics">goal posts</emphasis>, of course, are defined by the level of significance. In much scientific testing, the level of significance is typically set at 1%, which means the sample evidence must be very strong before a null hypothesis can be rejected. In this case, moving the goal posts could mean setting the level of significance as high as 10%. This higher level of significance, as we shall see below, allows for weaker evidence to be used in support of an alternative hypothesis.</para>
+        <para id="import-auto-idm1619724640">In Figure 1 below, alpha has been set at 1%. As you can see, the sample evidence fails to cross over the <emphasis effect="italics">goal posts</emphasis> set by alpha and we would thus reach a fail to reject of the null hypothesis. The sample evidence is not strong enough.</para>
+        <figure id="import-auto-idm1565686096">
+          <media id="import-auto-idm1525210480" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-838c.png" height="244" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-idm1018998032">In the following figure we have moved the <emphasis effect="italics">goal posts</emphasis> by setting alpha at 10%, making it easier to reject the null hypothesis. As you can see, the sample evidence now is strong enough to lead us to reject the null hypothesis. Of course, in truth the evidence has not changed, but in the first instance we fail to reject the null and in the second we do reject the null.</para>
+        <figure id="import-auto-idm1636280160">
+          <media id="import-auto-idm349083280" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2.png" height="236" width="577"/>
+          </media>
+        </figure>
+        <para id="import-auto-idm1010234832">Thankfully, at least when it comes to pharmaceutical testing, there are objective, government regulated standards that cannot be easily manipulated by vested interests. However, there are instances where the researcher is in control of choosing the level of significance. When this is the case, the choice should be made ethically and with an honest consideration of the implications of Type I and Type II errors. </para>
+        <para id="import-auto-idm997026560">As a final note, the level of significance should never be chosen <emphasis effect="italics">after</emphasis> the sample evidence has been measured. This would be akin to allowing the home team to determine where the goal posts are after the game has already begun.</para>
+      </section>
+      <section id="import-auto-idm1000315936">
+        <title>Examining the Sample Evidence</title>
+        <para id="import-auto-idm1621837392">Once the level of significance has been set, you can look more closely at the sample evidence to determine how strong it is. As discussed earlier, this evidence is first measured by determining how far away your sample mean or proportion is from the hypothesized mean or proportion. The measuring stick we use is called a Z-score or a t-score, which is simply the number of standard deviations our sample mean or proportion lies from the hypothesized middle of the sampling distribution. </para>
+        <para id="import-auto-idm1533688544">Recall from earlier in this chapter the example we looked at regarding sleep habits. We hypothesized that the mean number of hours adults sleep per night is 8. We then gathered sample evidence, where the sample mean was 7.5 and the standard deviation was 1.4 hours. The sampling distribution for this scenario would then have a hypothesized middle of 8 and a standard error of 0.20 (i.e. 1.4/sqrt50)</para><para id="import-auto-idm1530462704">Does a sample mean of 7.5 provide sufficient proof that the true population mean is less than 8? To investigate, we must first determine our level of significance. For now, we will use the default of 5%. This means that if our sample mean falls into the lower 5% of the tail, it will be considered strong evidence against the null hypothesis. We can now measure how many standard deviations (Z-scores, since we are working with a large sample) 7.5 is from 8. This measurement is often called the <emphasis effect="italics">test statistic</emphasis>. You may see it written as Z* or t*.</para>
+        <para id="import-auto-idm1641061584">Using our standardizing formula, we get Z* = 7.5 – 8.0 / (1.4/√50). The resulting Z-score is -2.5 (rounded to one decimal). Based on the empirical rule we know that any value with a Z-score of 2.5 (as an absolute value) would fall well out into the lower or upper 5% of the tail and would thus be considered an <emphasis effect="italics">unlikely </emphasis>observation. That is, very few sample means taken from a population with a mean of 8 would have such a high Z-score. </para>
+        <para id="import-auto-idm1605417760">Our decision, in this case would be to reject the null hypothesis (that the mean number of hours adults sleep is 8) in favour of the alternative hypothesis (that the mean number of hours adults sleep is less than 8). Keep in mind we have not proven they only sleep 7.5; this is never what we sought to prove. We only sought to prove that they sleep <emphasis effect="italics">less</emphasis> than 8 hours. Our sample mean of 7.5 is our evidence against the null hypothesis. As it turned out, the empirical rule helped us conclude that a sample mean of 7.5 would be a very unlikely finding if the true population mean were actually 8, which is why we rejected the null hypothesis.</para>
+      </section>
+      <section id="import-auto-idm1625011536">
+        <title>Measuring Sample Evidence with P-Values</title>
+        <para id="import-auto-idm1521593264">While using Z-scores and t-scores can lead us to a correct decision, a more common and precise measuring tool is preferred, called a p-value. To find the p-value of a sample mean or proportion we simply need to convert the test statistic into a probability. Specifically, the p-value seen below is the probability of getting sample mean of 7.5 or less from a population whose true mean is 8. As you can see, the resulting p-value is extremely small, meaning that such an outcome would be extremely unlikely (well under a probability of 5%) to occur if the true mean is 8.</para>
+        <figure id="import-auto-idm1566041008">
+          <media id="import-auto-idm1173482656" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4.png" height="233" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-idm1600451296">Be careful! The p-value is not the probability that the null hypothesis is true. It is the probability that our sample mean could have come from a population in which the null hypothesis is true. And since this probability is so small, we must conclude the null hypothesis in not true. In other words, our sample mean is what is considered an <emphasis effect="italics">unlikely event</emphasis>.</para>
+      </section>
+      <section id="import-auto-idm341740832">
+        <title>P-values and Unlikely Events</title>
+        <para id="import-auto-idm352380560">As a final example, suppose Didi and Ali are at a birthday party of a very wealthy friend. They hurry to be first in line to grab a prize from a tall basket that they cannot see inside because they will be blindfolded. There are 200 plastic bubbles in the basket and Didi and Ali have been told that there is only one with a $100 bill. Didi is the first person to reach into the basket and pull out a bubble. Her bubble contains a $100 bill. The probability of this happening is 1/200 = 0.005. </para>
+        <para id="import-auto-idm352380304">In statistical language, 0.005 is akin to a p-value. Because this occurrence was unlikely to have happened if there truly is only one $100 bill in the basket, Ali can conclude that what the two of them were told was wrong and there are actually more $100 bills in the basket. A "rare event" has occurred (Didi getting the $100 bill), so Ali doubts the assumption about only one $100 bill being in the basket.</para>
+      </section>
+    </section>
+    <section id="import-auto-idm1176236368">
+      <title>The Decision and Conclusion</title>
+      <para id="import-auto-idm1643863168">Once you have determined the p-value associated with a sample mean or proportion, the next step is to compare that p-value to the original level of signficnce..</para>
+      <para id="import-auto-idm1643862736">When you make a <emphasis effect="bold">decision</emphasis> to reject or not reject <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis>, do as follows:</para>
+      <para id="import-auto-idm1603137632">If <emphasis effect="italics"> p</emphasis>-value &lt; α, reject <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis>. The evidence provided by the sample data is significant. There is sufficient evidence to conclude that <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis> is an incorrect belief and that the <emphasis effect="bold">alternative hypothesis</emphasis>, <emphasis effect="italics">H</emphasis><emphasis effect="italics">a</emphasis>, may be correct.</para>
+      <para id="import-auto-idm1000924512">If <emphasis effect="italics"> p</emphasis>-value<emphasis effect="italics"> α</emphasis> ≥ , do not reject <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis>. The evidence provided by the sample data is not significant.There is not sufficient evidence to conclude that the alternative hypothesis,<emphasis effect="italics">H</emphasis><emphasis effect="italics">a</emphasis>, may be correct.</para>
+      <para id="import-auto-idm1631506160">When you "do not reject <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis>", it does not mean that you have proven that <emphasis effect="italics">H</emphasis><emphasis effect="italics">0</emphasis> is true. It simply means that the sample data have <emphasis effect="bold">failed</emphasis> to provide sufficient evidence to cast serious doubt about the truthfulness of <emphasis effect="italics">H</emphasis><emphasis effect="italics">o</emphasis>.</para>
+      <para id="import-auto-idm994160624">The figure below illustrates a P-value of 0.006 and a chosen level of significance of 0.05. As you can see, the p-value is much smaller than alpha (further out into the tail), which indicates strong evidence against the null hypothesis.</para>
+      <figure id="import-auto-idm340402704">
+        <media id="import-auto-idm340402576" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5.png" height="298" width="624"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm1529810656"><emphasis effect="bold">Conclusion:</emphasis> After you make your decision, write a thoughtful <emphasis effect="bold">conclusion</emphasis> about the hypotheses in terms of the given problem, making specific reference to the context. The example below should serve as a summary and a guide for conducting a full eight-step hypothesis test on a population mean or proportion.</para>
+    </section>
+    <section id="import-auto-idm1628302560">
+      <title>Conducting the Hypothesis Test</title>
+      <para id="import-auto-idm1628302432">In this course, we stress an eight-step process for conducting a hypothesis test.</para>
+      <list id="eip-193" list-type="enumerated" number-style="arabic"><item><emphasis effect="bold">Determine and record Ho and Ha</emphasis>, as discussed earlier in this chapter.</item>
+<item><emphasis effect="bold">Record the sample evidence</emphasis> that you will be using to challenge Ho. For a means test, your evidence will consist of the sample mean, the sample (or population) standard deviation, and the sample size. For a proportions test, your evidence will consist of the sample proportion and the sample size.</item>
+<item><emphasis effect="bold">State the test considerations</emphasis>. Looking at the sample evidence and any stated assumptions, determine the correct test procedure.</item>
+<item><emphasis effect="bold">State the required strength of evidence.</emphasis> Consider the implications of a Type I vs. a Type II error in choosing your level of significance, as well as any ethical considerations.</item>
+<item><emphasis effect="bold">Calculate the test statistic</emphasis>. Using the sample evidence, compute Z* or t* and the associated p-value.</item>
+<item><emphasis effect="bold">Discuss what the p-value measures in context</emphasis> and whether the test statistic can be considered an unlikely or a likely event within the context of the problem.</item>
+<item><emphasis effect="bold">Make a decision.</emphasis> Compare the test statistic (the p-value) to the required strength of evidence (alpha) and determine if you can reject or fail to reject the null hypothesis.</item>
+<item><emphasis effect="bold">Offer a concluding sentence.</emphasis> Using accessible language summarize your conclusion in sentence form within the context of the problem.</item></list><para id="import-auto-idm1641060512">Example 1</para>
+      <para id="import-auto-idm1641060384">Suppose Irene, who owns a top bakery in the city, claims that she has the best bread in the city by any measure. Not only is her bread the tastiest, it is also the fluffiest and the tallest, averaging 15 cm in height. Another baker, Jose, wishes to challenge Irene’s claim that her bread is the tallest. As evidence he will provide a sample of 40 randomly selected loaves of bread and have their heights measured in his attempt to prove that his bread heights actually exceed 15 cm, on average. In doing so, he obtains a sample mean bread height of 15.5 cm. He also knows from baking thousands of loaves that his variation is very low: specifically the standard deviation is 0.9 cm.</para><para id="import-auto-idm1630864704">
+        <emphasis effect="bold">Step One</emphasis>
+      </para>
+      <para id="import-auto-idm1605419984">The null and alternative hypotheses are as follows: </para>
+      <para id="import-auto-idm1605419728">Ho: µ = 15 </para>
+      <para id="import-auto-idm1605419472">Ha: µ &gt; 15</para>
+      <para id="import-auto-idm1569520896">
+        <emphasis effect="bold">Step Two</emphasis>
+      </para>
+      <para id="import-auto-idm1569520176">The sample evidence is as follows: sample mean = 15.5; population standard deviation = 0.9; sample size = 40.</para>
+      <para id="import-auto-idm1621494096">
+        <emphasis effect="bold">Step Three</emphasis>
+      </para>
+      <para id="import-auto-idm1636357808">The test considerations are as follows: We are using a large sample (n&gt;30) to conduct a means test. This will require a sampling distribution of the mean, which central limit theorem says will be approximately normally shaped since our sample size exceeds 30. We will therefore do a Z-based test.</para>
+      <para id="import-auto-idm1636357232">
+        <emphasis effect="bold">Step Four</emphasis>
+      </para>
+      <para id="import-auto-idm1619726624">The required strength of evidence can now be determined by considering the implications of a Type I vs. a Type II error. In this context, Jose will make a Type I error if he concludes that his bread heights average more than 15 cm when in fact they do not. He will make a Type II error if he concludes that his bread heights do not average more than 15 cm when in fact they do. Which error is worse will depend on where you are standing. Jose would consider a Type II error worse, whilst Irene would consider a Type I error worse. To be fair, we will choose a level of significance of 5%, which is generally considered a good balance between the two types of errors.</para>
+      <para id="import-auto-idm1545591952">Reject Ho if p-value &lt; 0.05</para>
+      <para id="import-auto-idm1619726368">
+        <emphasis effect="bold">Step Five</emphasis>
+      </para>
+      <para id="import-auto-idm1044519760">Compute the test statistics as follows:</para>
+      <para id="import-auto-idm1044519504">Z* = 15.5-15/(0.9/√40) = 3.51</para>
+      <para id="import-auto-idm1044519248">p-value =  0.0002</para>
+      <para id="import-auto-idm1570634672">NOTE: The Excel function for computing a p-value is as follows:</para>
+      <para id="import-auto-idm1570634416">
+        <emphasis>=1-NORM.S.DIST(3.51,1)</emphasis>
+      </para>
+      <para id="import-auto-idm1570634000">
+        <emphasis effect="bold">Step Six</emphasis>
+      </para>
+      <para id="import-auto-idm1640980320">Interpret the p-value in the context of the problem. Under the assumption that Jose’s bread is no taller than Irene’s (this his bread averages only 15 cm), the probability of obtaining a sample of 40 with a mean of 15.5 cm (or more) is only 0.0002 or 0.02%, which makes it a very unlikely event.</para><para id="import-auto-idm1627296912">
+        <emphasis effect="bold">Step Seven</emphasis>
+      </para>
+      <para id="eip-805">Make a decision by comparing your p-value to your level of significance. </para><para id="eip-138">Since the p-value (0.0002) &lt; 0.05, we can reject the null hypothesis.</para><para id="import-auto-idm1524903280">
+        <emphasis effect="bold">Step Eight</emphasis>
+      </para>
+      <para id="import-auto-idm1177002864">Offer a final conclusion in sentence form: Therefore we can conclude that Jose’s bread averages more than 15 cm and is indeed taller than Irene’s.</para>
+      <exercise id="eip-522"><title>Practice Question One</title><problem id="eip-301">
+  <para id="eip-999">
+    An auditing firm is looking at the travel expense claims for a large book retailer. The retailer’s books suggest that their average (µ) travel expenses was $1200 per person per year.
+A sample of 64 random expense claims revealed average of $1300. The population σ, based on an earlier comprehensive audit, is $400.
+The sample suggests the books have under-exaggerated the expense claims.
+Identify the Null and Alternative Hypotheses.
+
+  </para>
+</problem>
+
+<solution id="eip-800">
+  <para id="eip-229">Ho: µ = $1200; Ha: µ &gt; $1200</para>
+</solution>
+</exercise><exercise id="eip-674"><problem id="eip-539">
+  <para id="eip-751">
+    State your evidence.
+  </para>
+</problem>
+
+<solution id="eip-459">
+  <para id="eip-41">A sample of 64 random expense claims revealed average of $1300. The population σ, based on an earlier comprehensive audit, is $400.
+  </para></solution>
+</exercise><exercise id="eip-611"><problem id="eip-362">
+  <para id="eip-289">
+    Identify all test considerations and then determine the appropriate test.
+  </para>
+</problem>
+
+<solution id="eip-317">
+  <para id="eip-29">We are investigating a hypothesis about a population mean using a large sample. Central Limit Theorem says the sampling distribution will be normally shaped for sample sizes over 30. Thus we will conduct a Z-based test.
+  </para></solution>
+</exercise><exercise id="eip-91"><problem id="eip-997">
+  <para id="eip-288">
+    Consider the implications of both Type I and Type II errors and then decide on an appropriate level of significance. State your decision rule.
+  </para>
+</problem>
+
+<solution id="eip-661">
+  <para id="eip-512">A Type I error in this case would be for the auditor to accuse the bookstore of exaggerating its expense claims when in fact it has not. A Type II error  in this case would be for the auditor to not accuse the bookstore of exaggerating its expense claims when in fact it has.A Type I error could lead to a wrongful conviction for tax fraud so it would be best to minimize the likelihood of making this type of error. Alpha should be set at 1% (or at most 5%). Reject Ho if P-value &lt; 0.01.
+  </para></solution>
+</exercise><exercise id="eip-366"><problem id="eip-294">
+  <para id="eip-171">
+    Calculate the test statistics.
+  </para>
+</problem>
+
+<solution id="eip-637">
+  <para id="eip-943">Z* = 1300-1200/(400/√64) = 2.00; P-value = 0.0228
+  </para></solution>
+</exercise><exercise id="eip-437"><problem id="eip-820">
+  <para id="eip-933">
+    Define what the p-value is measuring in the context of the problem.
+  </para>
+</problem>
+
+<solution id="eip-56">
+  <para id="eip-113">Our P-value is 0.0228. This means that the probability of getting a sample mean of $1300 (or more) from a population with a mean of $1200 is 2.28%. Given our level of significance, this would be considered a not unlikely event.
+  The P-value &gt; 0.01, so we will fail to reject the null hypothesis.
+  </para></solution>
+</exercise><exercise id="eip-378"><problem id="eip-623">
+  <para id="eip-147">
+    Make a decision.
+  </para>
+</problem>
+
+<solution id="eip-671">
+  <para id="eip-725">Our P-value of 0.0228 is less than alpha of 0.01, we can reject the null hypothesis. 
+  </para></solution>
+</exercise><exercise id="eip-478"><problem id="eip-92">
+  <para id="eip-118">
+    Draw a final conclusion in sentence form.
+  </para>
+</problem>
+
+<solution id="eip-675">
+  <para id="eip-205">There is insufficient evidence to indicate that the average yearly travel expenditures per person per year is greater than $1200.</para></solution>
+</exercise><exercise id="eip-199"><title>Practice Question Two</title><problem id="eip-537">
+  <para id="eip-827">
+    A charitable organization wanted to see if a new form of mail marketing would change the percentage of people who replied. In the past the percentage of people who would reply to mail marketing was 1 in 175. A sample of 2000 letters was sent out. A total of 20 people responded. Is there any significant change in the percentage of respondents? Identify the null and alternative hypotheses.
+  </para>
+</problem>
+
+<solution id="eip-856">
+  <para id="eip-690">HO: π = 0.0057
+
+  HA: π ≠ 0.0057</para>
+</solution>
+</exercise><exercise id="eip-403"><problem id="eip-28">
+  <para id="eip-51">
+    State your evidence.
+  </para>
+</problem>
+
+<solution id="eip-953">
+  <para id="eip-718">n = 2000; number of success = 20
+  </para></solution>
+</exercise><exercise id="eip-963"><problem id="eip-673">
+  <para id="eip-695">
+    Identify all test considerations and then determine the appropriate test.
+  </para>
+</problem>
+
+<solution id="eip-600">
+  <para id="eip-643">We are testing if there has been a change in the proportion of successes within a population. To ensure that a large sample z-test is valid, we must ensure that both np and n(1-p) &gt; 5. In this case np == 6 and n(1-p) = 1980, so central limit theorem says the sample distribution of sample proportions will follow and approximately normal shape. Thus we will conduct a z-based test.
+  </para></solution>
+</exercise><exercise id="eip-779"><problem id="eip-421">
+  <para id="eip-104">
+    Consider the implications of both Type I and Type II errors and then decide on an appropriate level of significance. State your decision rule.
+  </para>
+</problem>
+
+<solution id="eip-976">
+  <para id="eip-685">A Type I error in this context would conclude the campaign has been successful when in fact it has not. A Type II error would conclude the campaign has not been successful when in fact it has. If the campaign is costly, it would be better to err on the side of making a Type II error over a Type I error. Therefore we will set alpha at 10%. Reject Ho if the p-value &lt; 0.10.
+  </para></solution>
+</exercise><exercise id="eip-831"><problem id="eip-137">
+  <para id="eip-225">
+    Calculate the test statistics.
+  </para>
+</problem>
+
+<solution id="eip-982">
+  <para id="eip-882">Z* = (0.01 – 0.0057)/sqrt((0.0057*0.9943)/2000) = 2.54; P-value = 0.011
+  </para></solution>
+</exercise><exercise id="eip-784"><problem id="eip-10">
+  <para id="eip-770">
+    Define what the p-value is measuring in the context of the problem.
+  </para>
+</problem>
+
+<solution id="eip-414">
+  <para id="eip-973">Our P-value is 0.011. This means that the probability of getting a sample proportion of 0.01 (or more) from a population with a proportion of 0.0057 is only 1.1%. Given our level of significance, this would be considered an unlikely event
+  </para></solution>
+</exercise><exercise id="eip-687"><problem id="eip-737">
+  <para id="eip-154">Make a decision by comparing the P-value to α.
+  
+  </para></problem>
+
+<solution id="eip-974">
+  <para id="eip-987">Since the p-value of 0.011 is less than alpha of 0.10, we will reject the null hypothesis.
+  </para></solution>
+</exercise><exercise id="eip-462"><problem id="eip-621">
+  <para id="eip-432">
+    Draw a final conclusion in sentence form.
+  </para>
+</problem>
+
+<solution id="eip-474">
+  <para id="eip-15">There is sufficient evidence to indicate that the proportion of responses differs as a result of the marketing campaign.</para></solution>
+</exercise><exercise id="eip-830"><title>Practice Question Three</title><problem id="eip-843">
+  <para id="eip-61">
+    Charter Air claims that its new executive boarding service has improved the time it takes for business passengers to purchase tickets, store luggage and board the plane. They believe that is less than the previous time of 12 minutes. A sample of 9 customers of this new exclusive service indicates the that the mean is 9.3 minutes with a standard deviation of 3.32 minutes. Previous studies have revealed that boarding times tend to follow a normal distribution. Identify the null and alternative hypotheses.
+  </para>
+</problem>
+
+<solution id="eip-878">
+  <para id="eip-59">Ho: µ = 12; Ha: µ &lt; 12
+  </para></solution>
+</exercise><exercise id="eip-261"><problem id="eip-254">
+  <para id="eip-791">
+    State your evidence.
+  </para>
+</problem>
+
+<solution id="eip-542">
+  <para id="eip-561">A sample of 9 randomly chosen customers’ boarding times reveals: n = 9; mean = 9.3; sample standard deviation = 3.32.
+  </para></solution>
+</exercise><exercise id="eip-198"><problem id="eip-871">
+  <para id="eip-306">
+    Identify all test considerations and then determine the appropriate test.
+  </para>
+</problem>
+
+<solution id="eip-783">
+  <para id="eip-934">We are investigating a hypothesis about a population mean using a small sample. Central Limit Theorem does not apply to small samples, but we can expect the sampling distribution to be normally shaped if the population is also normal. This has been confirmed through previous studies. Thus we will conduct a t-based test.
+  </para></solution>
+</exercise><exercise id="eip-420"><problem id="eip-679">
+  <para id="eip-149">
+    Consider the implications of both Type I and Type II errors and then decide on an appropriate level of significance. State your decision rule.
+  </para>
+</problem>
+
+<solution id="eip-564">
+  <para id="eip-715">A Type I error in this case would be for Charter Air to claim their boarding time is less than 12 minutes, when in fact it is not. A Type II error in this case would be for Charter Air not to claim their boarding time is less than 12 minutes, when in fact it is. A Type I error could lead to false advertising, which has both ethical and legal implications, so it would be best to minimize the likelihood of making this type of error. Alpha should be set at 1% (or at most 5%). Reject Ho if P-value &lt; 0.01.
+  </para></solution>
+</exercise><exercise id="eip-494"><problem id="eip-445">
+  <para id="eip-276">
+    Calculate the test statistics.
+  </para>
+</problem>
+
+<solution id="eip-83">
+  <para id="eip-629">t* = 9.3-12/(3.32/√9) = -2.43; P-value = 0.0203
+  </para></solution>
+</exercise><exercise id="eip-196"><problem id="eip-226">
+  <para id="eip-182">
+    Make a decision by comparing the P-value to α.
+  </para>
+</problem>
+
+<solution id="eip-636">
+  <para id="eip-456">The P-value &gt; 0.01, so we will fail to reject the null hypothesis.
+  </para></solution>
+</exercise><exercise id="eip-63"><problem id="eip-153">
+  <para id="eip-632">
+    Define what the p-value is measuring in the context of the problem.
+  </para>
+</problem>
+
+<solution id="eip-762">
+  <para id="eip-455">Our P-value is 0.0203. This means that the probability of getting a sample mean of 9.3 minutes (or less) from a population with a mean of 12 minutes is 2.03%. Given our level of significance, this would be considered a not unlikely event.
+  </para></solution>
+</exercise><exercise id="eip-952"><problem id="eip-203">
+  <para id="eip-894">
+    Make a decision by comparing the p-value to alpha
+  </para>
+</problem>
+
+<solution id="eip-872">
+  <para id="eip-876">The P-value of 0.0203 &gt; 0.01, so we will fail to reject the null hypothesis.
+  </para></solution>
+</exercise><exercise id="eip-311"><problem id="eip-817">
+  <para id="eip-272">
+    Draw a final conclusion in sentence form.
+  </para>
+</problem>
+
+<solution id="eip-896">
+  <para id="eip-19">There is insufficient evidence to indicate that the mean boarding time is less than 12 minutes.
+  </para></solution>
+</exercise></section>
+  </content>
+</document>

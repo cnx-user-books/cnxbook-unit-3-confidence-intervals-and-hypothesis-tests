@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to confidence intervals - MRU - C Lemieux</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65024</md:content-id>
+  <md:title>Introduction to confidence intervals - MRU - C Lemieux</md:title>
+  <md:abstract>Introduction to collection on confidence intervals</md:abstract>
+  <md:uuid>c678e553-d423-48ee-8393-244712cf2026</md:uuid>
+</metadata>
+
+<content>
+    <para id="idm45838410939744">From Chapter 6, we know that if we take many samples of the same size from a population and calculate the sample means, the sample means will be clustered around the population mean, but many of them won't be exactly the same as the population mean. Therefore, we can estimate the population mean using a sample mean, but we expect there to be a certain amount of error in that estimate. To determine that error, we can look at the standard error. That is, we can look at the amount of variation between the sample means.</para>
+    <para id="idm45838410938816">In the chapter, we will use this information about how sample means behave to help us make estimates about the population mean of unknown populations. We will also do this with sample proportions and population proportions. That is, the goal of this chapter is to make inferences about the population from sample data. This is our first foray into <emphasis effect="bold">inferential statistics</emphasis>.</para>
+    <para id="idm45838410936880">By the end of this section, the student should be able to</para>
+    <list id="idm45838410936496" display="block" list-type="bulleted">
+      <item id="uid1">Find and interpret confidence intervals that estimate the population mean and the population proportion.
+</item>
+      <item id="uid2">Understand the properties of the Student-t distribution.
+</item>
+      <item id="uid3">For confidence intervals for the population mean, can determine whether to use the Student-t distribution or the standard normal distribution as a model.
+</item>
+      <item id="uid4">Find the minimum sample size needed to estimate a parameter given a margin of error.
+</item>
+    </list>
+  </content>
+</document>

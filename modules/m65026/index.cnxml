@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Basic premise of constructing a confidence interval - MRU - C Lemieux</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65026</md:content-id>
+  <md:title>Basic premise of constructing a confidence interval - MRU - C Lemieux</md:title>
+  <md:abstract>Overview of how to construct a confidence interval</md:abstract>
+  <md:uuid>a82bcfc3-86ed-4f56-b839-0bd4dec3d071</md:uuid>
+</metadata>
+
+<content>
+    <para id="idm46519303056976">In the above section, we discussed at length what a confidence interval is. Now we are going to discuss how to construct and interpret one.</para>
+    <para id="idm46519303056432">A confidence interval is constructed by taking the point estimate and adding and subtracting the margin of error. The margin of error is constructed by looking at the level of confidence and the amount of variation between the point estimates. For example, the margin of error for a confidence interval for a population mean is found by looking at the level of confidence (which the researcher determines) and the amount of variation between the sample means. The amount of variation between the samples means is the amount of variation in the sampling distribution for sample means, i.e. the standard error. Thus <emphasis effect="bold">a confidence interval is always constructed from the appropriate sampling distribution</emphasis>.</para>
+    <para id="idm46519303054304">This is helpful in two ways:</para>
+    <list id="idm46519303053872" display="block" list-type="bulleted">
+      <item id="uid1">From our work in Chapter 6, we know what the standard error is for both the sample mean <m:math overflow="scroll"><m:mfenced separators="" open="(" close=")"><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mfenced></m:math> and sample proportion <m:math overflow="scroll"><m:mfenced separators="" open="(" close=")"><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>p</m:mi><m:mo>^</m:mo></m:mover></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>π</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>π</m:mi><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:mfrac></m:msqrt></m:mfenced></m:math>.
+</item>
+      <item id="uid2">From our work in Chapter 6, we know what the shape of the sampling distribution will be from the Central Limit Theorem.
+</item>
+    </list>
+    <para id="idm46519303039120">
+      <emphasis effect="bold">The margin of error is found by taking into account the confidence level and the standard error. </emphasis>
+    </para><para id="eip-808">The next section examines how the margin of error is constructed for confidence intervals for the mean. </para>
+  </content>
+</document>

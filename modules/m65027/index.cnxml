@@ -1,0 +1,447 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Confidence interval for the mean - MRU - C Lemieux (2019)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65027</md:content-id>
+  <md:title>Confidence interval for the mean - MRU - C Lemieux (2019)</md:title>
+  <md:abstract>Explanation of how to construct a confidence interval for the mean</md:abstract>
+  <md:uuid>ea0c90a0-8cef-4906-8dfa-7ca0c008442b</md:uuid>
+</metadata>
+
+<content>
+    <para id="idm45772064557936">There are multiple models for finding the confidence interval for the mean. The models we will be looking at rely on the sampling distribution being approximately normal. If that is not the case, then we cannot use these models.</para>
+    <para id="idm45772064557312">Therefore, the following section relies on the following assumptions:</para>
+    <list id="idm45772064556480" display="block" list-type="bulleted">
+      <item id="uid1">The sampling distribution for sample means of the population we are investigating is approximately normally distributed.
+<list id="idm45772064554608" display="block" list-type="bulleted"><item id="uid2">If the sample size is greater than 30, then the central limit theorem tells us that we can assume that the sampling distribution is approximately normal regardless of the population distribution. Thus, if the sample size is greater than 30, we can use this model.
+</item><item id="uid3">If the sample size is less than 30, the central limit theorem does not guarantee that the sampling distribution of the means will be normal. Therefore, <emphasis effect="bold">to use this model the population distribution needs to be approximately normal</emphasis> so that we know that the sampling distribution for sample means is normal.
+</item></list></item>
+      <item id="uid4">The sample we are using to construct the confidence interval is a random sample.
+</item>
+    </list>
+    <para id="idm45772064502784">To construct a confidence interval for the mean, collect a random sample from the population whose mean is being estimated. Then calculate the sample mean.</para>
+    <para id="idm45772064502224">The next step is to calculate the margin of error. To do this, we begin by finding out how much sampling variability there is in the sampling distribution. That is, we determine how much variation we expect between the sample means. This is found by calculating the standard error of the sampling distribution for sample means:</para>
+    <equation id="idm45772064501456">
+      <m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mover accent="true">
+              <m:mi>X</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+          </m:msub>
+          <m:mo>=</m:mo>
+          <m:mfrac>
+            <m:msub>
+              <m:mi>σ</m:mi>
+              <m:mover accent="true">
+                <m:mi>X</m:mi>
+                <m:mo>¯</m:mo>
+              </m:mover>
+            </m:msub>
+            <m:msqrt>
+              <m:mi>n</m:mi>
+            </m:msqrt>
+          </m:mfrac>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="idm45772064495824">Now we want to take into account the level of confidence. To do this, we construct a normal distribution that is centred at the sample mean, <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>, whose standard deviation is the standard error of the mean, <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mstyle></m:math>. The data values for this distribution are sample means. Therefore this is a sampling distribution for sample means. This sampling distribution is an estimate of what the sampling distribution of the population will look like:</para>
+    <figure id="uid5">
+      <media id="uid5_media" alt="">
+        <image mime-type="image/png" src="../../media/curve1.png" id="uid5_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 628. --></image>
+        <image mime-type="application/postscript" for="pdf" src="../../media/curve1.eps" id="uid5_printimage" print-width="100pt">
+          <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+        </image>
+      </media>
+      <caption><emphasis effect="bold">Blue curve</emphasis>: True sampling distribution for sample means centred at <m:math overflow="scroll"><m:msub><m:mi>μ</m:mi><m:mi>x</m:mi></m:msub></m:math> and with a standard deviation of <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mstyle></m:math>. <emphasis effect="bold">Red curve</emphasis>: Estimate of the true sampling distribution for sample means based on the mean of the random sample. It is centred at <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> and has a standard deviation of <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mstyle></m:math>.</caption>
+    </figure>
+    <para id="idm45772064455232">In <link target-id="uid5"/>, the blue sampling distribution is the theoretical sampling distribution of the population, which is unknown. The red sampling distribution is an estimate of the blue curve based on the sample mean found from the random sample. We will use the red sampling distribution to estimate the population mean.</para>
+    <para id="idm45772064453792">Using the red sampling distribution, we want to determine the interval of sample means that fall within a specific percentage from the mean. The specific percentage is the confidence level.</para>
+    <para id="idm45772064453200">Suppose that the confidence level is 95.44%. From the empirical rule, we know that 95.44% of data values fall within 2 standard deviations of the mean for normally distributed data. Therefore, if we wanted to construct a 95.44% confidence interval, we would take the sample mean and add and subtract two standard deviations from it. Since we are dealing with a sampling distribution, the standard deviation we are referring to is the standard error of the mean. Therefore, a 95.44% confidence interval is found by calculating <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:mo>=</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mfrac><m:msub><m:mi>σ</m:mi><m:mi>X</m:mi></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mstyle></m:math>. Thus for a 95.44% confidence interval, the margin of error is <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mfrac><m:msub><m:mi>σ</m:mi><m:mi>X</m:mi></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mstyle></m:math>.</para>
+    <figure id="uid6">
+      <media id="uid6_media" alt="">
+        <image mime-type="image/png" src="../../media/blankstandardnormalcurve.png" id="uid6_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 565. --></image>
+        <image mime-type="application/postscript" for="pdf" src="../../media/blankstandardnormalcurve.eps" id="uid6_printimage" print-width="100pt">
+          <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+        </image>
+      </media>
+      <caption>95.44% confidence interval for the mean</caption>
+    </figure>
+    <para id="idm45772064437952">If we wanted to find a 95% confidence interval, we would use the same process, but we would want a slightly narrower interval. Therefore, instead of multiplying the standard error by 2, we would multiply it by a slightly smaller number. To determine by what number, we would need to find out how many standard deviations away from the mean results in an area of 95%. In other words, we would need to find the <m:math overflow="scroll"><m:mi>z</m:mi></m:math>-score that gives an area of 95%.</para>
+    <figure id="uid7"><media id="uid7_media" alt="">
+        <image mime-type="image/png" src="../../media/confidence3.png" id="uid7_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 1453. --></image>
+        <image mime-type="application/postscript" for="pdf" src="../../media/confidence3.eps" id="uid7_printimage" print-width="100pt">
+          <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+        </image>
+      </media>
+      
+    <caption>Standard normal curve with the area of the tails being 5%.</caption></figure><para id="idm45772064433936">If the area in the middle of the curve is 95%, then the area of one tail is 2.5%. Using a computer program, we can find this value to be <m:math overflow="scroll"><m:mrow><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>96</m:mn></m:mrow></m:math>.</para>
+    <para id="idm45772064431264">To do this, go to your computer program and go to the menu option that lets you find probabilities for normal distributions. Then make the mean 0 and the standard deviation 1. Then switch from calculating probabilities to finding z-values (like you are going to find a percentile). In the appropriate box, put 0.0025 in for the area in the upper tail. When you hit enter, the program will give you 1.96 as the z-value for this area.</para>
+    <para id="idm45772064430000">In general, the value that you multiply the standard error by is called the <emphasis effect="bold">critical value</emphasis> and is denoted by <m:math overflow="scroll"><m:msub><m:mi>z</m:mi><m:mrow><m:mi>α</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msub></m:math>, where <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is the total area of the tails. <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>α</m:mi><m:mo>)</m:mo><m:mo>×</m:mo><m:mn>100</m:mn><m:mo>%</m:mo></m:mrow></m:math> is the level of confidence.</para>
+    <para id="idm45772064422624">The margin of error is <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>z</m:mi><m:mrow><m:mi>α</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo>×</m:mo><m:mfrac><m:msub><m:mi>σ</m:mi><m:mi>X</m:mi></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mstyle></m:math></para>
+    <para id="idm45772064417056">The confidence interval is <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mi>E</m:mi></m:mrow></m:math>. As it is an interval, always write it with the smaller number first (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mi>E</m:mi></m:mrow></m:math>) followed by the larger number (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>+</m:mo><m:mi>E</m:mi></m:mrow></m:math>).</para>
+    <exercise id="eip-423"><problem id="eip-41">
+  <para id="eip-653">
+   
+      Suppose that a random sample of 175 students from a university is taken and their average age is 21.34 years old and the population standard deviation is known to be 5.12 years.</para>
+      <list id="idm45772064407728" display="block" list-type="enumerated">
+        <item id="uid9">Find the 95% confidence interval for the population mean age of all university students.
+</item>
+        <item id="uid10">Interpret the confidence interval in the context of the question.
+</item>
+        <item id="uid11">Explain what the level of confidence means in the context of the problem.
+</item>
+        <item id="uid12">If we decreased the sample size to 100, what would you expect to happen to the confidence interval? Explain your answer.
+</item>
+        <item id="uid13">Suppose that an administrator at the university claims that this university caters to older students and that the mean age is 23. Does the confidence interval support the claim?
+</item>
+      </list>
+    
+
+</problem>
+
+<solution id="eip-183">
+<list id="eip-idm756738032" list-type="enumerated" number-style="arabic"><item id="uid15">We can use the standard normal model to find the confidence interval, because the sample was collected randomly and, since the sample size is greater than 30 (it is 175), we can be very confident that the sampling distribution for the sample means is normal due to the central limit theorem.
+To find the confidence interval, use a computer program. Make sure to choose the z-model (instead of the t-model). Input the sample size as 175, the sample mean as 21.34 and the standard deviation as 5.12. Choose the level of confidence to be 95%.
+This gives the following output:
+<table id="idm45772064394240" summary=""><tgroup cols="2"><tbody><row><entry>95%</entry><entry>confidence level</entry></row><row><entry>1.96</entry><entry>z</entry></row><row><entry>0.759</entry><entry>margin of error</entry></row><row><entry>20.581</entry><entry>lower confidence limit</entry></row><row><entry>22.099</entry><entry>upper confidence limit</entry></row></tbody></tgroup></table>
+From this, we can see that the confidence interval for the mean is 20.58 to 22.10.
+</item>
+        <item id="uid16">To interpret the confidence interval, we would say that we are 95% confident that the population mean age of students from this university is somewhere between 20.58 years old and 22.10 years old. That is, we are estimating that the population mean age is somewhere between 20.58 years old and 22.10 years old.
+</item>
+        <item id="uid17">The confidence level means that if we took many random samples of size 175 from the student body of this university and constructed many confidence intervals for each of these random samples, then 95% of these confidence intervals will contain the population mean age for this university, while 5% will not.
+</item>
+        <item id="uid18">If the sample size is decreased to 100, we would expect that the confidence interval would get wider. From the law of large numbers, we know there is more sampling variability in smaller samples. Thus there is more potential for error between the sample mean and the population mean when the sample size is smaller. The margin of error then is bigger to take this into account. This is supported by the formula for the margin of error (<m:math overflow="scroll"><m:mrow><m:msub><m:mi>z</m:mi><m:mrow><m:mi>α</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo>×</m:mo><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:math>). Since we are dividing by the <m:math overflow="scroll"><m:msqrt><m:mi>n</m:mi></m:msqrt></m:math>, the margin of error would be smaller for larger <m:math overflow="scroll"><m:mi>n</m:mi></m:math> and bigger for smaller <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.
+</item>
+        <item id="uid19">We have estimated that the population mean age is between 20.58 years old and 22.10 years old. Therefore, based on our estimate, it is unlikely that the mean age of this university is 23 years old as 23 does not fall within our estimate. The administrator's claim is most likely incorrect.
+</item>
+      
+</list></solution>
+</exercise><para id="eip-99">A few notes about the above confidence interval:
+      <list id="idm45772064369632" display="block" list-type="bulleted">
+        <item id="uid21">All of the means in the interval are equally likely. That is, each of the estimates of the population mean in the interval have an equal chance of being correct. For example, 20.58 years old and 21.25 years old are both equally likely estimates of the population mean age.
+</item>
+        <item id="uid22">The sample mean of 21.34 is right in the middle of the interval.
+</item>
+        <item id="uid23">The margin of error is 0.759 and is found using the formula
+<equation id="idm45772064364736"><m:math overflow="scroll" mode="display"><m:mstyle scriptlevel="0" displaystyle="true"><m:mrow><m:msub><m:mi>z</m:mi><m:mrow><m:mi>α</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo>×</m:mo><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>96</m:mn><m:mo>×</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo><m:mn>12</m:mn></m:mrow><m:msqrt><m:mn>175</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle></m:math></equation></item>
+        <item id="uid24">It is possible that the population mean is not captured by this confidence interval, but we wouldn't know whether it does or not without knowing the population mean.
+</item>
+      </list>
+    </para><section id="cid1">
+      <title>Wait a second! If we don't the population mean (<m:math overflow="scroll"><m:msub><m:mi>μ</m:mi><m:mi>x</m:mi></m:msub></m:math>), how do we know the population standard deviation (<m:math overflow="scroll"><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:math>) in the standard error formula???</title>
+      <para id="idm45772064351248">That's a really good question. The actual formula for the population standard deviation involves knowing the population mean: <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="true"><m:mrow><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>∑</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mi>n</m:mi></m:mfrac></m:msqrt></m:mrow></m:mstyle></m:math>. Therefore, if we don't know the population mean, how do we know the population standard deviation?</para>
+      <para id="idm45772064344912">There are two possible answers to this:</para>
+      <list id="idm45772064344480" display="block" list-type="enumerated">
+        <item id="uid25">In some long running process (e.g. manufacturing), the standard deviation may be very static. Therefore, the population standard deviation could be known even if the population mean isn't.
+</item>
+        <item id="uid26">We don't know the population standard deviation, so instead we estimate it with the sample standard deviation.
+</item>
+      </list>
+      <para id="idm45772064340448">It is fairly unlikely that in most situations, the population standard deviation will be known. Thus, we will focus on situations where the population standard deviation is unknown. In that case, we will use the sample standard deviation <m:math overflow="scroll"><m:mi>s</m:mi></m:math> to estimate the population standard deviation <m:math overflow="scroll"><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:math>.</para>
+    </section>
+    <section id="cid2">
+      <title>Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution</title>
+      <para id="idm45772064335008">To use this model to construct a confidence interval, we need to again assume that the sampling distribution is normal and that the sample was collected randomly. Just as we saw above, there are two general situations that need to occur to ensure the sampling distribution is normal:</para>
+      <list id="idm45772064334320" display="block" list-type="bulleted">
+        <item id="uid27">If the sample size is greater than 30, then the central limit theorem tells us that we can assume that the sampling distribution is approximately normal regardless of the population distribution. Thus, if the sample size is greater than 30, we can use this model.
+</item>
+        <item id="uid28">If the sample size is less than 30, the central limit theorem does not guarantee that the sampling distribution of the means will be normal. Therefore, <emphasis effect="bold">to use this model the population distribution needs to be approximately normal</emphasis> so that we know that the sampling distribution for sample means is normal.
+</item>
+      </list>
+      <para id="idm45772064330032">Since we don't know the population standard deviation, we will be using the sample standard deviation to estimate <m:math overflow="scroll"><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:math>. That means we are estimating the population mean using the sample mean and sample standard deviation. This suggests that there may be more error in our estimate. To account for the greater error, we want the confidence interval to be slightly wider. To do this the margin of error needs to slightly bigger. The margin of error is the critical value <m:math overflow="scroll"><m:mo>×</m:mo></m:math> the standard error. The standard error is inherent to the population and can't be changed, but the critical value can be. So instead of using the standard normal distribution to find the critical value, we use the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution <footnote id="uid29">The Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution was created by William Gosset, an English statistician who worked for Guinness breweries. While working for Guinness, Gosset developed the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution, but was prohibited from publishing his work by his employers who worried about trade secrets getting out. Thus he published his work under the pseudonym `Student' in 1907. The distribution, then, should really be called the Gosset-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution.</footnote></para>
+      <para id="idm45772064320912">Here is some information about the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution.</para>
+      <list id="idm45772064319472" display="block" list-type="bulleted">
+        <item id="uid30">The Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution is a normal distribution with <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>σ</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. The standard deviation of the Student <m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution is different for different sample size. Remember that the standard normal distribution is a normal distribution with <m:math overflow="scroll"><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Therefore, the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution is centred at the same place as the standard normal distribution, but has greater variation so it is slightly wider and shorter. See <link target-id="uid33"/>.
+</item>
+        <item id="uid31">The smaller the sample size, the greater the variability is in the sampling distribution. When the sample size is larger, there is less variability in the sampling distribution. These aspects are reflected in shape of the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution.
+</item>
+        <item id="uid32">As the sample size <m:math overflow="scroll"><m:mi>n</m:mi></m:math> gets larger, the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution gets closer to the standard normal distribution.
+</item>
+      </list>
+      <figure id="uid33">
+        <media id="uid33_media" alt="">
+          <image mime-type="image/png" src="../../media/student.png" id="uid33_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 3840. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/student.eps" id="uid33_printimage" print-width="100pt">
+            <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+          </image>
+        </media>
+        <caption>Comparison of Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution with standard normal distribution</caption>
+      </figure>
+      <para id="idm45772064298160">The standard deviation of the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution is based on the <emphasis effect="bold">degrees of freedom</emphasis>, which in turn are based on the sample size. The number of degrees of freedom for a sample corresponds to the number of data values that can vary after certain
+restrictions have been imposed on all data values. Another way of saying it, is the degrees of freedom are the number of components that need to be known before a statistic is entirely determined. Depending on the model used, the degrees of freedom have a different formula. For this model (i.e. confidence interval for one population mean), the degrees of freedom are the sample size minus 1, i.e. <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <para id="idm45772064293616">As stated above, we want the width of the confidence interval to be wider to take into account the larger variation due to the estimate of the standard deviation. As you can see from the figure above, the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution is wider than the standard normal distribution. Which means that the critical value for a 95% confidence level will be greater than that for the standard normal. See the image below.</para>
+      <figure id="uid34">
+        <media id="uid34_media" alt="">
+          <image mime-type="image/png" src="../../media/critical.png" id="uid34_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 3840. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/critical.eps" id="uid34_printimage" print-width="100pt">
+            <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+          </image>
+        </media>
+        <caption>Critical value for Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution with <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></caption>
+      </figure>
+      <para id="idm45772064286448">Notice the critical value is happening about halfway between <m:math overflow="scroll"><m:mo>±</m:mo></m:math>2 and <m:math overflow="scroll"><m:mo>±</m:mo></m:math>3. But the critical value for the standard normal distribution is <m:math overflow="scroll"><m:mo>±</m:mo></m:math>1.96.</para>
+      <para id="idm45772064282688">The margin of error for this model is:</para>
+      <equation id="idm45772064282256">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>E</m:mi>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mi>t</m:mi>
+              <m:mrow>
+                <m:mi>α</m:mi>
+                <m:mo>/</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msub>
+            <m:mo>×</m:mo>
+            <m:mfrac>
+              <m:mi>s</m:mi>
+              <m:msqrt>
+                <m:mi>n</m:mi>
+              </m:msqrt>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="idm45772064277952">The confidence interval is constructed in the same way: <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mi>E</m:mi></m:mrow></m:math>.</para>
+      <exercise id="eip-495"><problem id="eip-809">
+  
+        <para id="idm45772064274112">A manufacturer of AAA batteries wants to estimate the mean
+life expectancy of the batteries. It is known that the life
+expectancy of such batteries is typically normally distributed.</para>
+        <para id="idm45772064273536">A random sample of 25 batteries has a mean of 44.25 hours and a standard deviation of 2.25 hours. Assume the population is normal.</para>
+        <list id="idm45772064273008" display="block" list-type="enumerated">
+          <item id="uid36">Construct a 95% confidence interval for the mean life expectancy of all the AAA batteries made by this manufacturer.
+</item>
+          <item id="uid37">Interpret the 95% confidence interval.
+</item>
+          <item id="uid38">If the confidence level is decreased to 90%, how does the confidence interval change?
+</item>
+        </list>
+      
+</problem>
+
+<solution id="eip-27">
+  
+        <list id="idm45772064266192" display="block" list-type="enumerated">
+          <item id="uid40">We can use the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution model to construct the confidence interval, because the population standard deviation is unknown (so we don't use the standard normal distribution), the sample is collected randomly, and the sampling distribution of the sample means is normal because the population distribution is normal.
+To find the confidence interval, use a computer program. Make sure to choose the <m:math overflow="scroll"><m:mi>t</m:mi></m:math>-model (instead of the <m:math overflow="scroll"><m:mi>z</m:mi></m:math>-model). Input the sample size as 25, the sample mean as 44.25 and the standard deviation as 2.25. Choose the level of confidence to be 95%.
+This gives the following output:
+<table id="idm45772064259408" summary=""><tgroup cols="2"><tbody><row><entry>95%</entry><entry>confidence level</entry></row><row><entry>2.064</entry><entry>t</entry></row><row><entry>24</entry><entry>degrees of freedom</entry></row><row><entry>0.929</entry><entry>margin of error</entry></row><row><entry>43.321</entry><entry>lower confidence limit</entry></row><row><entry>45.179</entry><entry>upper confidence limit</entry></row></tbody></tgroup></table>
+From this, we can see that the confidence interval for the mean is 43.321 to 45.179.
+</item>
+          <item id="uid41">To interpret the confidence interval, we would say that we are 95% confident that the true mean battery life of brand of AAA batteries is somewhere between 43.32 hours and 45.18 hours.
+</item>
+          <item id="uid42">If the confidence level is decreased to 90%, we would expect that the confidence interval would get narrower. A higher level of confidence is obtained by making the confidence interval wider. Therefore, if the confidence level is decreased, then the confidence interval would get narrower.
+</item>
+        </list>
+        <para id="idm45772064245696">Notice from the computer output, that the critical value is 2.064 with 24 degrees of freedom (i.e one less than the sample size). If the population standard deviation was known, the critical value would be 1.96. To re-iterate, since we are estimating the population standard deviation with the sample standard deviation, we know there is more room for error in the estimate. Therefore, we want the estimate (i.e. confidence interval) to be slightly wider, thus the margin of error needs to be slightly bigger. This is done by using the Student-<m:math overflow="scroll"><m:mi>t</m:mi></m:math> distribution, which results in bigger critical values for the same confidence level as would occur for the standard normal distribution. In this case, 2.064.</para>
+      
+</solution>
+</exercise></section>
+    <para id="eip-120"><link target-id="uid45"/> is a flow chart that indicates how to make a choice of which model to use to construct a confidence interval (CI) for the mean.
+        <figure id="uid45"><media id="uid45_media" alt="">
+            <image mime-type="image/png" src="../../media/FlowChartMean2.png" id="uid45_onlineimage" width="500"><!-- NOTE: attribute width changes image size online (pixels). original width is 620. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/FlowChartMean2.png" id="uid45_printimage" print-width="100pt">
+              <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+            </image>
+          </media>
+          
+        <caption>Flow chart for determining which model to use when constructing confidence interval for the mean</caption></figure></para><section id="cid3">
+      <title>Sample Size Determination </title>
+      <para id="idm45772064221360">Determining an appropriate sample size is very important.
+Too small of a sample may lead to poor results.
+Too large of a sample needlessly wastes time and money.</para>
+      <para id="idm45772064220528">Prior to this section, we would have determined if a sample size was large enough simply by guessing. Here we will learn a formula for finding the appropriate sample size based on the amount of error we will accept in our results. This can be done by determining the minimum sample size needed to have a certain margin of error. To do this, we solve for the sample size <m:math overflow="scroll"><m:mi>n</m:mi></m:math> in the margin of error formula.</para>
+      <equation id="idm45772064218496">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>E</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>z</m:mi>
+                    <m:mfrac>
+                      <m:mi>α</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:msub>
+                  <m:mo>·</m:mo>
+                  <m:mfrac>
+                    <m:mi>s</m:mi>
+                    <m:msqrt>
+                      <m:mi>n</m:mi>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msqrt>
+                  <m:mi>n</m:mi>
+                </m:msqrt>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>z</m:mi>
+                      <m:mrow>
+                        <m:mi>α</m:mi>
+                        <m:mo>/</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo>·</m:mo>
+                    <m:mi>s</m:mi>
+                  </m:mrow>
+                  <m:mi>E</m:mi>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mfenced separators="" open="[" close="]">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mrow>
+                            <m:mi>α</m:mi>
+                            <m:mo>/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>·</m:mo>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                      <m:mi>E</m:mi>
+                    </m:mfrac>
+                  </m:mfenced>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="idm45772064202208">As we would always rather than have one more object of study rather than one less, we will always round up the result of this calculation. That is, if the result of the formula is 50.2, then we will round up to 51.</para>
+      <para id="idm45772064201328">A couple of notes about the formula:</para>
+      <list id="idm45772064200896" display="block" list-type="enumerated">
+        <item id="uid46">Since <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is unknown we can't use <m:math overflow="scroll"><m:mi>t</m:mi></m:math>. Think about why this is so.
+</item>
+        <item id="uid47">We still need to have a sense of the standard deviation to use this formula. As such, we will often do a preliminary study to estimate of the standard deviation.
+</item>
+      </list>
+      <exercise id="eip-320"><problem id="eip-919">
+ 
+        <para id="idm45772064193600">You plan to do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep participants get each night. To do this you will measure the number of hours of sleep for each of the participants after they've done hypnotherapy. You want to ensure that your estimate for the mean number of hours of sleep is within 0.2 hours of the true mean with a 95% level of confidence. Prior to doing the full study, you do a pilot study with 12 participants, which provides the following data:</para>
+        <equation id="idm45772064192688">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>8</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>7</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>7</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>11</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>10</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>9</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>7</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>;</m:mo>
+              <m:mn>10</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="idm45772064179376">How many participants should be in your study?</para>
+      
+</problem>
+
+<solution id="eip-972">
+ 
+        <para id="idm45772064177776">We know the confidence level (95%). The margin of error is stated by saying that we want the estimate of the true mean to be within 0.2 hours. Thus the 0.2 hours is telling us how much error we want in the estimate (i.e. <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>2</m:mn></m:mrow></m:math>). We do need to have a sense of the standard deviation, which we get from the preliminary study. Using the 12 participants, we get a sample standard deviation of 1.29.</para>
+        <para id="idm45772064174688">We can now use a computer program to do the calculation. From the question, we know the margin of error (<m:math overflow="scroll"><m:mi>E</m:mi></m:math>) is 0.2, the standard deviation is 1.29, and the confidence level is 95%. When we input this into the computer program, we get output similar to this.</para>
+        <table id="idm45772064172992" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>95%</entry>
+                <entry>confidence level</entry>
+              </row>
+              <row>
+                <entry>1.96</entry>
+                <entry>z</entry>
+              </row>
+              <row>
+                <entry>159.814</entry>
+                <entry>sample size</entry>
+              </row>
+              <row>
+                <entry>160</entry>
+                <entry>rounded up</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="idm45772064166640">From this, we can see that to get our sample size within 0.2 hours of the true mean we would need a sample size of at least 160 participants.</para>
+      
+</solution>
+</exercise></section>
+  </content>
+</document>
