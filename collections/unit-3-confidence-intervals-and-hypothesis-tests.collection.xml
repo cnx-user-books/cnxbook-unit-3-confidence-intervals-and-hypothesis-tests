@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Collette Lemieux">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col23771</md:content-id>
     <md:title>Unit 3 - Confidence intervals and Hypothesis Tests</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>dbbe113e-167f-4e92-b26e-b66061624a44</md:uuid>
-<md:slug>unit-3-confidence-intervals-and-hypothesis-tests</md:slug>
-</metadata>
+    <md:slug>unit-3-confidence-intervals-and-hypothesis-tests</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Chapter 7 - Confidence intervals</md:title>
